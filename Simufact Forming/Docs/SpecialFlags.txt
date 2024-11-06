@@ -1,0 +1,19 @@
+FO 2024.06.22
+!------- Special flags -------!
+LME coefficients, threshold and mesh cracking should be in the format coeffA, coeffB, coeffC, LME_threshold,crack_mesh_toggle
+
+LMEData
+0.0008 ,-3.2249,2217.3,0.35,0
+
+Contact resistivity parameters for the Kaars equation should be in the format r0,pk,p0,Tlim,epsP,epsT
+
+ContResKaars
+0.17E-7,-5.0E6,1.0E8,600.0,-0.333,-1.0
+
+Post-weld properties calculation
+C,Si,Mn,Cu,Ni,Cr,Mo,V,Nb,N,B,
+H_ferrite,H_base,H_aust,Grain,VolFracMartensite,VolFracBainite,AC1,AC3
+
+Postweld
+0.15,,1.1,0.4,,,,,,0.01,
+120.0,300.0,1.0,,0.001,0.01,714.0,823.0

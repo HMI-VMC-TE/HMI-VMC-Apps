@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sfMaterials>
+<sfMaterialData>
+    <modified_on_date>2022-11-16T12:01:48</modified_on_date>
+    <import_date>2022-11-16T12:01:56</import_date>
+    <file_version>1660681792</file_version>
+    <class>Welding</class>
+    <group isUserDefined="false">Copper</group>
+    <condition isUserDefined="true"></condition>
+    <source>Simufact</source>
+    <author>Fernando</author>
+    <comment>From SORPAS</comment>
+    <name>CuCrZr</name>
+    <min_temperature dimension="8" unit="0" unit_symbol="K">293.15</min_temperature>
+    <max_temperature dimension="8" unit="0" unit_symbol="K">1173.15</max_temperature>
+    <min_effective_plastic_strain dimension="-1" unit="0" unit_symbol="-">0.0</min_effective_plastic_strain>
+    <max_effective_plastic_strain dimension="-1" unit="0" unit_symbol="-">0.18</max_effective_plastic_strain>
+    <min_strain_rate dimension="24" unit="0" unit_symbol="1/s">0.01</min_strain_rate>
+    <max_strain_rate dimension="24" unit="0" unit_symbol="1/s">0.01</max_strain_rate>
+    <youngs_modulus dimension="13" unit="3" unit_symbol="MPa">129000.0</youngs_modulus>
+    <youngs_modulus_table_peak_temperature_pairs>
+        <table_peak_temperature_pair>
+            <peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</peak_temperature>
+            <table id="0">
+                <sfDataTable name="Young's modulus" type="0" columns="2" rows="20" version="12.1">
+                    <idTag>51##Default</idTag>
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>20</rows>
+                    <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+                    <columndata title="Young's modulus" name="Young's modulus" type="0" datatype="1" fffunit="851980" unit_symbol="N/mm²" usage="2"/>
+                    <row nb="1">50;129000</row>
+                    <row nb="2">100;127000</row>
+                    <row nb="3">150;125000</row>
+                    <row nb="4">200;122500</row>
+                    <row nb="5">250;120500</row>
+                    <row nb="6">300;118000</row>
+                    <row nb="7">350;116000</row>
+                    <row nb="8">400;111000</row>
+                    <row nb="9">450;110000</row>
+                    <row nb="10">500;105000</row>
+                    <row nb="11">550;100000</row>
+                    <row nb="12">600;95000</row>
+                    <row nb="13">650;91000</row>
+                    <row nb="14">700;87000</row>
+                    <row nb="15">750;84000</row>
+                    <row nb="16">800;80000</row>
+                    <row nb="17">850;77000</row>
+                    <row nb="18">900;73000</row>
+                    <row nb="19">950;69000</row>
+                    <row nb="20">1000;65000</row>
+                </sfDataTable>
+            </table>
+        </table_peak_temperature_pair>
+    </youngs_modulus_table_peak_temperature_pairs>
+    <youngs_modulus_table id="1">
+        <sfDataTable name="Young's modulus" type="0" columns="2" rows="20" version="12.1">
+            <idTag>51##Default</idTag>
+            <type>0</type>
+            <columns>2</columns>
+            <rows>20</rows>
+            <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+            <columndata title="Young's modulus" name="Young's modulus" type="0" datatype="1" fffunit="851980" unit_symbol="N/mm²" usage="2"/>
+            <row nb="1">50;129000</row>
+            <row nb="2">100;127000</row>
+            <row nb="3">150;125000</row>
+            <row nb="4">200;122500</row>
+            <row nb="5">250;120500</row>
+            <row nb="6">300;118000</row>
+            <row nb="7">350;116000</row>
+            <row nb="8">400;111000</row>
+            <row nb="9">450;110000</row>
+            <row nb="10">500;105000</row>
+            <row nb="11">550;100000</row>
+            <row nb="12">600;95000</row>
+            <row nb="13">650;91000</row>
+            <row nb="14">700;87000</row>
+            <row nb="15">750;84000</row>
+            <row nb="16">800;80000</row>
+            <row nb="17">850;77000</row>
+            <row nb="18">900;73000</row>
+            <row nb="19">950;69000</row>
+            <row nb="20">1000;65000</row>
+        </sfDataTable>
+    </youngs_modulus_table>
+    <youngs_modulus_user_selection_datatype>1</youngs_modulus_user_selection_datatype>
+    <transverse_contraction dimension="-1" unit="0" unit_symbol="-">0.34</transverse_contraction>
+    <transverse_contraction_user_selection_datatype>0</transverse_contraction_user_selection_datatype>
+    <thermal_expansion dimension="15" unit="0" unit_symbol="1/K">1.3e-05</thermal_expansion>
+    <thermal_expansion_table_peak_temperature_pairs>
+        <table_peak_temperature_pair>
+            <peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</peak_temperature>
+            <table id="2">
+                <sfDataTable name="Thermal expansion coeff." type="0" columns="2" rows="23" version="12.1">
+                    <idTag>57##Default</idTag>
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>23</rows>
+                    <columndata title="Temperatur" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+                    <columndata title="Thermische Ausdehnung" name="Thermal expansion" type="0" datatype="1" fffunit="983041" unit_symbol="1/°C" usage="2"/>
+                    <row nb="1">-100;0</row>
+                    <row nb="2">-40;1.2e-05</row>
+                    <row nb="3">20;1.25e-05</row>
+                    <row nb="4">100;1.3e-05</row>
+                    <row nb="5">150;1.4e-05</row>
+                    <row nb="6">200;1.5e-05</row>
+                    <row nb="7">250;1.6e-05</row>
+                    <row nb="8">300;1.7e-05</row>
+                    <row nb="9">350;1.75e-05</row>
+                    <row nb="10">400;1.8e-05</row>
+                    <row nb="11">450;1.8e-05</row>
+                    <row nb="12">500;1.85e-05</row>
+                    <row nb="13">550;1.85e-05</row>
+                    <row nb="14">600;1.9e-05</row>
+                    <row nb="15">650;1.95e-05</row>
+                    <row nb="16">700;1.95e-05</row>
+                    <row nb="17">750;2e-05</row>
+                    <row nb="18">800;2e-05</row>
+                    <row nb="19">850;2.05e-05</row>
+                    <row nb="20">900;2.1e-05</row>
+                    <row nb="21">950;2.15e-05</row>
+                    <row nb="22">1080;2.2e-05</row>
+                    <row nb="23">1084.62;0</row>
+                </sfDataTable>
+            </table>
+        </table_peak_temperature_pair>
+    </thermal_expansion_table_peak_temperature_pairs>
+    <thermal_expansion_table id="3">
+        <sfDataTable name="Thermal expansion coeff." type="0" columns="2" rows="23" version="12.1">
+            <idTag>57##Default</idTag>
+            <type>0</type>
+            <columns>2</columns>
+            <rows>23</rows>
+            <columndata title="Temperatur" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+            <columndata title="Thermische Ausdehnung" name="Thermal expansion" type="0" datatype="1" fffunit="983041" unit_symbol="1/°C" usage="2"/>
+            <row nb="1">-100;0</row>
+            <row nb="2">-40;1.2e-05</row>
+            <row nb="3">20;1.25e-05</row>
+            <row nb="4">100;1.3e-05</row>
+            <row nb="5">150;1.4e-05</row>
+            <row nb="6">200;1.5e-05</row>
+            <row nb="7">250;1.6e-05</row>
+            <row nb="8">300;1.7e-05</row>
+            <row nb="9">350;1.75e-05</row>
+            <row nb="10">400;1.8e-05</row>
+            <row nb="11">450;1.8e-05</row>
+            <row nb="12">500;1.85e-05</row>
+            <row nb="13">550;1.85e-05</row>
+            <row nb="14">600;1.9e-05</row>
+            <row nb="15">650;1.95e-05</row>
+            <row nb="16">700;1.95e-05</row>
+            <row nb="17">750;2e-05</row>
+            <row nb="18">800;2e-05</row>
+            <row nb="19">850;2.05e-05</row>
+            <row nb="20">900;2.1e-05</row>
+            <row nb="21">950;2.15e-05</row>
+            <row nb="22">1080;2.2e-05</row>
+            <row nb="23">1084.62;0</row>
+        </sfDataTable>
+    </thermal_expansion_table>
+    <thermal_expansion_user_selection_datatype>1</thermal_expansion_user_selection_datatype>
+    <density dimension="11" unit="0" unit_symbol="kg/m³">8860.0</density>
+    <density_user_selection_datatype>0</density_user_selection_datatype>
+    <thermal_conductivity dimension="14" unit="1" unit_symbol="W/(m·K)">182.0</thermal_conductivity>
+    <thermal_conductivity_table_peak_temperature_pairs>
+        <table_peak_temperature_pair>
+            <peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</peak_temperature>
+            <table id="4">
+                <sfDataTable name="Thermal conductivity" type="0" columns="2" rows="21" version="12.1">
+                    <idTag>63##Default</idTag>
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>21</rows>
+                    <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+                    <columndata title="Thermal conductivity" name="Thermal conductivity" type="0" datatype="1" fffunit="917510" unit_symbol="N/(s·K)" usage="2"/>
+                    <row nb="1">50;387.8</row>
+                    <row nb="2">100;384.6</row>
+                    <row nb="3">150;387.4</row>
+                    <row nb="4">200;378.2</row>
+                    <row nb="5">250;375.1</row>
+                    <row nb="6">300;371.9</row>
+                    <row nb="7">350;368.7</row>
+                    <row nb="8">400;365.5</row>
+                    <row nb="9">450;362.3</row>
+                    <row nb="10">500;359.1</row>
+                    <row nb="11">550;355.9</row>
+                    <row nb="12">600;352.7</row>
+                    <row nb="13">650;349.5</row>
+                    <row nb="14">700;346.3</row>
+                    <row nb="15">750;343.2</row>
+                    <row nb="16">800;340</row>
+                    <row nb="17">850;335</row>
+                    <row nb="18">900;330</row>
+                    <row nb="19">950;325</row>
+                    <row nb="20">1000;320</row>
+                    <row nb="21">1050;315</row>
+                </sfDataTable>
+            </table>
+        </table_peak_temperature_pair>
+    </thermal_conductivity_table_peak_temperature_pairs>
+    <thermal_conductivity_table id="5">
+        <sfDataTable name="Thermal conductivity" type="0" columns="2" rows="21" version="12.1">
+            <idTag>63##Default</idTag>
+            <type>0</type>
+            <columns>2</columns>
+            <rows>21</rows>
+            <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+            <columndata title="Thermal conductivity" name="Thermal conductivity" type="0" datatype="1" fffunit="917510" unit_symbol="N/(s·K)" usage="2"/>
+            <row nb="1">50;387.8</row>
+            <row nb="2">100;384.6</row>
+            <row nb="3">150;387.4</row>
+            <row nb="4">200;378.2</row>
+            <row nb="5">250;375.1</row>
+            <row nb="6">300;371.9</row>
+            <row nb="7">350;368.7</row>
+            <row nb="8">400;365.5</row>
+            <row nb="9">450;362.3</row>
+            <row nb="10">500;359.1</row>
+            <row nb="11">550;355.9</row>
+            <row nb="12">600;352.7</row>
+            <row nb="13">650;349.5</row>
+            <row nb="14">700;346.3</row>
+            <row nb="15">750;343.2</row>
+            <row nb="16">800;340</row>
+            <row nb="17">850;335</row>
+            <row nb="18">900;330</row>
+            <row nb="19">950;325</row>
+            <row nb="20">1000;320</row>
+            <row nb="21">1050;315</row>
+        </sfDataTable>
+    </thermal_conductivity_table>
+    <thermal_conductivity_user_selection_datatype>1</thermal_conductivity_user_selection_datatype>
+    <specific_heat_capacity dimension="18" unit="4" unit_symbol="J/(g·K)">0.414</specific_heat_capacity>
+    <specific_heat_capacity_table_peak_temperature_pairs>
+        <table_peak_temperature_pair>
+            <peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</peak_temperature>
+            <table id="6">
+                <sfDataTable name="Specific heat capacity" type="0" columns="2" rows="20" version="12.1">
+                    <idTag>66##Default</idTag>
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>20</rows>
+                    <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+                    <columndata title="Specific heat capacity" name="Specific heat capacity" type="0" datatype="1" fffunit="1179655" unit_symbol="mm²/(s²·°C)" usage="2"/>
+                    <row nb="1">50;414000000</row>
+                    <row nb="2">100;420000000</row>
+                    <row nb="3">150;427000000</row>
+                    <row nb="4">200;435000000</row>
+                    <row nb="5">250;444000000</row>
+                    <row nb="6">300;450000000</row>
+                    <row nb="7">350;456000000</row>
+                    <row nb="8">400;462000000</row>
+                    <row nb="9">450;469000000</row>
+                    <row nb="10">500;472000000</row>
+                    <row nb="11">550;475000000</row>
+                    <row nb="12">600;477000000</row>
+                    <row nb="13">650;480000000</row>
+                    <row nb="14">700;482000000</row>
+                    <row nb="15">750;485000000</row>
+                    <row nb="16">800;489000000</row>
+                    <row nb="17">850;492000000</row>
+                    <row nb="18">900;495000000</row>
+                    <row nb="19">950;498000000</row>
+                    <row nb="20">1000;500000000</row>
+                </sfDataTable>
+            </table>
+        </table_peak_temperature_pair>
+    </specific_heat_capacity_table_peak_temperature_pairs>
+    <specific_heat_capacity_table id="7">
+        <sfDataTable name="Specific heat capacity" type="0" columns="2" rows="20" version="12.1">
+            <idTag>66##Default</idTag>
+            <type>0</type>
+            <columns>2</columns>
+            <rows>20</rows>
+            <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+            <columndata title="Specific heat capacity" name="Specific heat capacity" type="0" datatype="1" fffunit="1179655" unit_symbol="mm²/(s²·°C)" usage="2"/>
+            <row nb="1">50;414000000</row>
+            <row nb="2">100;420000000</row>
+            <row nb="3">150;427000000</row>
+            <row nb="4">200;435000000</row>
+            <row nb="5">250;444000000</row>
+            <row nb="6">300;450000000</row>
+            <row nb="7">350;456000000</row>
+            <row nb="8">400;462000000</row>
+            <row nb="9">450;469000000</row>
+            <row nb="10">500;472000000</row>
+            <row nb="11">550;475000000</row>
+            <row nb="12">600;477000000</row>
+            <row nb="13">650;480000000</row>
+            <row nb="14">700;482000000</row>
+            <row nb="15">750;485000000</row>
+            <row nb="16">800;489000000</row>
+            <row nb="17">850;492000000</row>
+            <row nb="18">900;495000000</row>
+            <row nb="19">950;498000000</row>
+            <row nb="20">1000;500000000</row>
+        </sfDataTable>
+    </specific_heat_capacity_table>
+    <specific_heat_capacity_user_selection_datatype>1</specific_heat_capacity_user_selection_datatype>
+    <melting_point dimension="8" unit="1" unit_symbol="°C">1084.62</melting_point>
+    <solidus_temperature dimension="8" unit="1" unit_symbol="°C">1080.0</solidus_temperature>
+    <latent_heat dimension="25" unit="0" unit_symbol="J/kg">210000.0</latent_heat>
+    <dissipation_factor dimension="-1" unit="0" unit_symbol="-">0.9</dissipation_factor>
+    <dissipation_factor_user_selection_datatype>0</dissipation_factor_user_selection_datatype>
+    <electrical_resisitivity_user_selection_datatype>1</electrical_resisitivity_user_selection_datatype>
+    <electrical_resisitivity_table id="8">
+        <sfDataTable name="Electrical resistivity" type="0" columns="2" rows="14" version="12.1">
+            <idTag>69##Default</idTag>
+            <type>0</type>
+            <columns>2</columns>
+            <rows>14</rows>
+            <columndata type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+            <columndata type="0" datatype="1" fffunit="2818048" unit_symbol="Ω·m" usage="2"/>
+            <row nb="1">20;2.16e-08</row>
+            <row nb="2">100;2.66e-08</row>
+            <row nb="3">200;3.76e-08</row>
+            <row nb="4">300;4.16e-08</row>
+            <row nb="5">400;4.86e-08</row>
+            <row nb="6">500;5.66e-08</row>
+            <row nb="7">600;6.46e-08</row>
+            <row nb="8">700;7.26e-08</row>
+            <row nb="9">800;8.16e-08</row>
+            <row nb="10">900;9.06e-08</row>
+            <row nb="11">1000;1.02e-07</row>
+            <row nb="12">1100;2.2e-07</row>
+            <row nb="13">1200;2.27e-07</row>
+            <row nb="14">1300;2.33e-07</row>
+        </sfDataTable>
+    </electrical_resisitivity_table>
+    <diffusivity element="C" phase="Austenite">
+        <autoScaling>1</autoScaling>
+        <useDefaultEquation>1</useDefaultEquation>
+        <scalingFactor>1</scalingFactor>
+        <transformationThreshold>0.3</transformationThreshold>
+        <value valueType="constant">
+            <value>0</value>
+            <alphaCoeff auto="false">
+                <sfDataTable type="0" columns="2" rows="3" version="12.1">
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>3</rows>
+                    <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                    <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="2"/>
+                    <row nb="1">0;1</row>
+                    <row nb="2">0.75;1</row>
+                    <row nb="3">1.5;1</row>
+                </sfDataTable>
+            </alphaCoeff>
+            <flowStressScalingFactor auto="false">
+                <sfDataTable type="0" columns="2" rows="3" version="12.1">
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>3</rows>
+                    <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                    <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="2"/>
+                    <row nb="1">0;1</row>
+                    <row nb="2">0.75;1</row>
+                    <row nb="3">1.5;1</row>
+                </sfDataTable>
+            </flowStressScalingFactor>
+            <tripCoeffScalingFactor auto="false">
+                <sfDataTable type="0" columns="2" rows="3" version="12.1">
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>3</rows>
+                    <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                    <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="2"/>
+                    <row nb="1">0;1</row>
+                    <row nb="2">0.75;1</row>
+                    <row nb="3">1.5;1</row>
+                </sfDataTable>
+            </tripCoeffScalingFactor>
+        </value>
+    </diffusivity>
+    <flow_curves_used_approach>0</flow_curves_used_approach>
+    <flow_curves_table_approach>
+        <usePeakTemperatures>false</usePeakTemperatures>
+        <temperatures count="6">
+            <temperature dimension="8" unit="0" unit_symbol="K">293.15</temperature>
+            <temperature dimension="8" unit="0" unit_symbol="K">473.15</temperature>
+            <temperature dimension="8" unit="0" unit_symbol="K">573.15</temperature>
+            <temperature dimension="8" unit="0" unit_symbol="K">673.15</temperature>
+            <temperature dimension="8" unit="0" unit_symbol="K">973.15</temperature>
+            <temperature dimension="8" unit="0" unit_symbol="K">1173.15</temperature>
+        </temperatures>
+        <strain_rates count="1">
+            <strain_rate dimension="24" unit="0" unit_symbol="1/s">0.01</strain_rate>
+        </strain_rates>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="0" unit_symbol="K">293.15</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <sfDataTable name="T=20.0 °C,phi_p=0.01 1/s" type="0" columns="2" rows="19" version="12.1">
+                <idTag>0</idTag>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>19</rows>
+                <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;283.137</row>
+                <row nb="2">0.01;300.891</row>
+                <row nb="3">0.02;314.16</row>
+                <row nb="4">0.03;324.853</row>
+                <row nb="5">0.04;333.86</row>
+                <row nb="6">0.05;341.669</row>
+                <row nb="7">0.06;348.582</row>
+                <row nb="8">0.07000000000000001;354.795</row>
+                <row nb="9">0.08;360.447</row>
+                <row nb="10">0.09;365.637</row>
+                <row nb="11">0.1;370.441</row>
+                <row nb="12">0.11;374.915</row>
+                <row nb="13">0.12;379.106</row>
+                <row nb="14">0.13;383.05</row>
+                <row nb="15">0.14;386.776</row>
+                <row nb="16">0.15;390.309</row>
+                <row nb="17">0.16;393.67</row>
+                <row nb="18">0.17;396.876</row>
+                <row nb="19">0.18;399.941</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="0" unit_symbol="K">473.15</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <sfDataTable name="T=200.0 °C,phi_p=0.01 1/s" type="0" columns="2" rows="19" version="12.1">
+                <idTag>1</idTag>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>19</rows>
+                <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;298.809</row>
+                <row nb="2">0.01;313.707</row>
+                <row nb="3">0.02;324.726</row>
+                <row nb="4">0.03;333.539</row>
+                <row nb="5">0.04;340.917</row>
+                <row nb="6">0.05;347.282</row>
+                <row nb="7">0.06;352.891</row>
+                <row nb="8">0.07000000000000001;357.914</row>
+                <row nb="9">0.08;362.468</row>
+                <row nb="10">0.09;366.638</row>
+                <row nb="11">0.1;370.486</row>
+                <row nb="12">0.11;374.062</row>
+                <row nb="13">0.12;377.403</row>
+                <row nb="14">0.13;380.541</row>
+                <row nb="15">0.14;383.499</row>
+                <row nb="16">0.15;386.299</row>
+                <row nb="17">0.16;388.958</row>
+                <row nb="18">0.17;391.49</row>
+                <row nb="19">0.18;393.907</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="0" unit_symbol="K">573.15</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <sfDataTable name="T=300.0 °C,phi_p=0.01 1/s" type="0" columns="2" rows="19" version="12.1">
+                <idTag>2</idTag>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>19</rows>
+                <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;241.711</row>
+                <row nb="2">0.01;251.713</row>
+                <row nb="3">0.02;259.06</row>
+                <row nb="4">0.03;264.905</row>
+                <row nb="5">0.04;269.779</row>
+                <row nb="6">0.05;273.97</row>
+                <row nb="7">0.06;277.653</row>
+                <row nb="8">0.07000000000000001;280.943</row>
+                <row nb="9">0.08;283.918</row>
+                <row nb="10">0.09;286.637</row>
+                <row nb="11">0.1;289.142</row>
+                <row nb="12">0.11;291.466</row>
+                <row nb="13">0.12;293.634</row>
+                <row nb="14">0.13;295.667</row>
+                <row nb="15">0.14;297.581</row>
+                <row nb="16">0.15;299.391</row>
+                <row nb="17">0.16;301.107</row>
+                <row nb="18">0.17;302.739</row>
+                <row nb="19">0.18;304.296</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="0" unit_symbol="K">673.15</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <sfDataTable name="T=400.0 °C,phi_p=0.01 1/s" type="0" columns="2" rows="19" version="12.1">
+                <idTag>3</idTag>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>19</rows>
+                <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;175.058</row>
+                <row nb="2">0.01;180.83</row>
+                <row nb="3">0.02;185.039</row>
+                <row nb="4">0.03;188.372</row>
+                <row nb="5">0.04;191.14</row>
+                <row nb="6">0.05;193.512</row>
+                <row nb="7">0.06;195.59</row>
+                <row nb="8">0.07000000000000001;197.442</row>
+                <row nb="9">0.08;199.113</row>
+                <row nb="10">0.09;200.637</row>
+                <row nb="11">0.1;202.038</row>
+                <row nb="12">0.11;203.336</row>
+                <row nb="13">0.12;204.545</row>
+                <row nb="14">0.13;205.678</row>
+                <row nb="15">0.14;206.742</row>
+                <row nb="16">0.15;207.747</row>
+                <row nb="17">0.16;208.7</row>
+                <row nb="18">0.17;209.604</row>
+                <row nb="19">0.18;210.466</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="0" unit_symbol="K">973.15</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <sfDataTable name="T=700.0 °C,phi_p=0.01 1/s" type="0" columns="2" rows="19" version="12.1">
+                <idTag>4</idTag>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>19</rows>
+                <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;94.0334</row>
+                <row nb="2">0.01;96.7406</row>
+                <row nb="3">0.02;98.7084</row>
+                <row nb="4">0.03;100.262</row>
+                <row nb="5">0.04;101.55</row>
+                <row nb="6">0.05;102.652</row>
+                <row nb="7">0.06;103.616</row>
+                <row nb="8">0.07000000000000001;104.474</row>
+                <row nb="9">0.08;105.247</row>
+                <row nb="10">0.09;105.952</row>
+                <row nb="11">0.1;106.599</row>
+                <row nb="12">0.11;107.198</row>
+                <row nb="13">0.12;107.755</row>
+                <row nb="14">0.13;108.277</row>
+                <row nb="15">0.14;108.767</row>
+                <row nb="16">0.15;109.23</row>
+                <row nb="17">0.16;109.668</row>
+                <row nb="18">0.17;110.084</row>
+                <row nb="19">0.18;110.48</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="0" unit_symbol="K">1173.15</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <sfDataTable name="T=900.0 °C,phi_p=0.01 1/s" type="0" columns="2" rows="19" version="12.1">
+                <idTag>5</idTag>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>19</rows>
+                <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;25.1686</row>
+                <row nb="2">0.01;25.684</row>
+                <row nb="3">0.02;26.0561</row>
+                <row nb="4">0.03;26.3485</row>
+                <row nb="5">0.04;26.5898</row>
+                <row nb="6">0.05;26.7955</row>
+                <row nb="7">0.06;26.975</row>
+                <row nb="8">0.07000000000000001;27.1343</row>
+                <row nb="9">0.08;27.2777</row>
+                <row nb="10">0.09;27.408</row>
+                <row nb="11">0.1;27.5275</row>
+                <row nb="12">0.11;27.6379</row>
+                <row nb="13">0.12;27.7405</row>
+                <row nb="14">0.13;27.8363</row>
+                <row nb="15">0.14;27.9263</row>
+                <row nb="16">0.15;28.0111</row>
+                <row nb="17">0.16;28.0912</row>
+                <row nb="18">0.17;28.1673</row>
+                <row nb="19">0.18;28.2396</row>
+            </sfDataTable>
+        </flow_curve_table>
+    </flow_curves_table_approach>
+    <phase_transformation/>
+    <FLD>
+        <polynomial>
+            <marginalOffset active="true">0.1</marginalOffset>
+            <thinningLimit active="true">0.2</thinningLimit>
+            <shearLimitEng active="true">0.7</shearLimitEng>
+            <rbar active="true">1</rbar>
+            <c0>0</c0>
+            <c1>0</c1>
+            <c2>0</c2>
+            <c3>0</c3>
+            <c4>0</c4>
+            <d1>0</d1>
+            <d2>0</d2>
+            <d3>0</d3>
+            <d4>0</d4>
+        </polynomial>
+        <AbspoelScholting>
+            <marginalOffset active="true">0.1</marginalOffset>
+            <thinningLimit active="true">0.2</thinningLimit>
+            <shearLimitEng active="true">0.7</shearLimitEng>
+            <rbar active="true">1</rbar>
+            <A_80>0</A_80>
+            <r>0</r>
+            <t>0</t>
+            <useEngineeringStrains>true</useEngineeringStrains>
+        </AbspoelScholting>
+        <keeler>
+            <marginalOffset active="true">0.1</marginalOffset>
+            <thinningLimit active="true">0.2</thinningLimit>
+            <shearLimitEng active="true">0.7</shearLimitEng>
+            <rbar active="true">1</rbar>
+            <n>0.2</n>
+            <t>0.0015</t>
+            <fld0>0</fld0>
+        </keeler>
+        <tableBased>
+            <marginalOffset active="true">0.1</marginalOffset>
+            <thinningLimit active="true">0.2</thinningLimit>
+            <shearLimitEng active="true">0.7</shearLimitEng>
+            <rbar active="true">1</rbar>
+            <tableValues>
+                <sfDataTable type="0" columns="2" rows="0" version="12.1">
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>0</rows>
+                    <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                    <columndata type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="2"/>
+                </sfDataTable>
+            </tableValues>
+            <useEngineeringStrains>true</useEngineeringStrains>
+        </tableBased>
+    </FLD>
+    <misc>
+        <misc_modified>true</misc_modified>
+    </misc>
+</sfMaterialData>

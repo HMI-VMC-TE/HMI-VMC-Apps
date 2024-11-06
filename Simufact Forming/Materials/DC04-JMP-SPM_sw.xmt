@@ -1,0 +1,2534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sfMaterials>
+<sfMaterialData>
+    <modified_on_date>2020-01-21T06:38:35</modified_on_date>
+    <file_version>1579279412</file_version>
+    <name>DC04-JMP-SPM_sw</name>
+    <class>Welding</class>
+    <group isUserDefined="false">General steel</group>
+    <condition isUserDefined="true"></condition>
+    <norm>1.0338</norm>
+    <gb_norm>08_JMP-SPM_焊接</gb_norm>
+    <source>JMatPro</source>
+    <comment>Alloy calculated with JMatPro 
+ALLOY_ID_WT%      Al0.03C0.034Cr0.03Cu0.01Fe99.616Mn0.24Ni0.02P0.009S0.011
+ALLOY_ID_AT%      Al0.06199C0.158Cr0.03217Cu0.008773Fe99.441Mn0.244Ni0.019P0.0162S0.01912
+JMatPro VERSION      8.0.5
+MATERIAL TYPE = General Steel
+RT STRENGTH INPUT = 0.2% Proof Stress 210 MPa / 30.46 ksi
+</comment>
+    <min_temperature dimension="8" unit="1" unit_symbol="°C">25.0</min_temperature>
+    <max_temperature dimension="8" unit="1" unit_symbol="°C">1500.0</max_temperature>
+    <min_effective_plastic_strain dimension="-1" unit="0" unit_symbol="-">0.0</min_effective_plastic_strain>
+    <max_effective_plastic_strain dimension="-1" unit="0" unit_symbol="-">4.0</max_effective_plastic_strain>
+    <min_strain_rate dimension="24" unit="0" unit_symbol="1/s">0.01</min_strain_rate>
+    <max_strain_rate dimension="24" unit="0" unit_symbol="1/s">0.01</max_strain_rate>
+    <youngs_modulus_table_peak_temperature_pairs>
+        <table_peak_temperature_pair>
+            <peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</peak_temperature>
+            <table id="1">
+                <sfDataTable name="Young's modulus" type="0" columns="2" rows="152" version="12.1">
+                    <idTag>47##Default</idTag>
+                    <comment></comment>
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>152</rows>
+                    <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+                    <columndata title="Young's modulus" name="Young's modulus" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                    <row nb="1">25;211157.8132</row>
+                    <row nb="2">30;210948.8435</row>
+                    <row nb="3">40;210528.4873</row>
+                    <row nb="4">50;210102.5622</row>
+                    <row nb="5">60;209668.5938</row>
+                    <row nb="6">70;209224.4476</row>
+                    <row nb="7">80;208768.2798</row>
+                    <row nb="8">90;208298.4983</row>
+                    <row nb="9">100;207813.7284</row>
+                    <row nb="10">110;207312.7846</row>
+                    <row nb="11">120;206794.6463</row>
+                    <row nb="12">130;206258.4379</row>
+                    <row nb="13">140;205703.4105</row>
+                    <row nb="14">150;205128.9277</row>
+                    <row nb="15">160;204534.4518</row>
+                    <row nb="16">170;203919.5336</row>
+                    <row nb="17">180;203283.8015</row>
+                    <row nb="18">190;202626.9544</row>
+                    <row nb="19">200;201948.753</row>
+                    <row nb="20">210;201249.0143</row>
+                    <row nb="21">220;200527.6056</row>
+                    <row nb="22">230;199784.4393</row>
+                    <row nb="23">240;199019.4688</row>
+                    <row nb="24">250;198232.6844</row>
+                    <row nb="25">260;197424.11</row>
+                    <row nb="26">270;196593.7996</row>
+                    <row nb="27">280;195741.8353</row>
+                    <row nb="28">290;194868.3241</row>
+                    <row nb="29">300;193973.3961</row>
+                    <row nb="30">310;193057.2023</row>
+                    <row nb="31">320;192119.9132</row>
+                    <row nb="32">330;191161.7168</row>
+                    <row nb="33">340;190182.8172</row>
+                    <row nb="34">350;189183.4337</row>
+                    <row nb="35">360;188163.7992</row>
+                    <row nb="36">370;187124.1592</row>
+                    <row nb="37">380;186064.7709</row>
+                    <row nb="38">390;184985.9034</row>
+                    <row nb="39">400;183887.8326</row>
+                    <row nb="40">410;182770.8469</row>
+                    <row nb="41">420;181635.2421</row>
+                    <row nb="42">430;180481.3222</row>
+                    <row nb="43">440;179309.3986</row>
+                    <row nb="44">450;178119.7893</row>
+                    <row nb="45">460;176912.8193</row>
+                    <row nb="46">470;175688.819</row>
+                    <row nb="47">480;174448.125</row>
+                    <row nb="48">490;173191.0786</row>
+                    <row nb="49">500;171918.0265</row>
+                    <row nb="50">510;170629.3195</row>
+                    <row nb="51">520;169325.313</row>
+                    <row nb="52">530;168006.3665</row>
+                    <row nb="53">540;166672.843</row>
+                    <row nb="54">550;165325.1093</row>
+                    <row nb="55">560;163963.5354</row>
+                    <row nb="56">570;162588.4944</row>
+                    <row nb="57">580;161200.3626</row>
+                    <row nb="58">590;159799.5187</row>
+                    <row nb="59">600;158386.3445</row>
+                    <row nb="60">610;156958.7354</row>
+                    <row nb="61">620;155519.3371</row>
+                    <row nb="62">630;154068.494</row>
+                    <row nb="63">640;152606.5497</row>
+                    <row nb="64">650;151133.8446</row>
+                    <row nb="65">660;149650.7173</row>
+                    <row nb="66">670;148157.5028</row>
+                    <row nb="67">680;146654.5321</row>
+                    <row nb="68">690;145142.1327</row>
+                    <row nb="69">700;143620.6262</row>
+                    <row nb="70">710;142090.3294</row>
+                    <row nb="71">720;140551.5515</row>
+                    <row nb="72">730;138824.0528</row>
+                    <row nb="73">740;137265.5083</row>
+                    <row nb="74">750;135701.1014</row>
+                    <row nb="75">760;134132.199</row>
+                    <row nb="76">770;132560.2983</row>
+                    <row nb="77">780;130986.112</row>
+                    <row nb="78">790;129411.6991</row>
+                    <row nb="79">800;127839.834</row>
+                    <row nb="80">810;126274.5642</row>
+                    <row nb="81">820;124722.0524</row>
+                    <row nb="82">830;123192.0334</row>
+                    <row nb="83">840;121700.5647</row>
+                    <row nb="84">850;120275.2324</row>
+                    <row nb="85">860;118965.1656</row>
+                    <row nb="86">870;117859.221</row>
+                    <row nb="87">880;117105.8959</row>
+                    <row nb="88">890;116801.3617</row>
+                    <row nb="89">900;116194.6829</row>
+                    <row nb="90">910;115187.455</row>
+                    <row nb="91">920;114178.871</row>
+                    <row nb="92">930;113168.9301</row>
+                    <row nb="93">940;112157.6323</row>
+                    <row nb="94">950;111144.9775</row>
+                    <row nb="95">960;110130.965</row>
+                    <row nb="96">970;109115.5945</row>
+                    <row nb="97">980;108098.8657</row>
+                    <row nb="98">990;107080.7778</row>
+                    <row nb="99">1000;106061.3302</row>
+                    <row nb="100">1010;105040.5222</row>
+                    <row nb="101">1020;104018.3534</row>
+                    <row nb="102">1030;102994.8223</row>
+                    <row nb="103">1040;101969.9283</row>
+                    <row nb="104">1050;100943.6702</row>
+                    <row nb="105">1060;99916.04665</row>
+                    <row nb="106">1070;98887.05647000001</row>
+                    <row nb="107">1080;97856.69799</row>
+                    <row nb="108">1090;96824.96952</row>
+                    <row nb="109">1100;95791.86921999999</row>
+                    <row nb="110">1110;94757.39503</row>
+                    <row nb="111">1120;93721.54466</row>
+                    <row nb="112">1130;92684.31546</row>
+                    <row nb="113">1140;91645.70505999999</row>
+                    <row nb="114">1150;90605.71036</row>
+                    <row nb="115">1160;89564.32820999999</row>
+                    <row nb="116">1170;88521.55509000001</row>
+                    <row nb="117">1180;87477.38739</row>
+                    <row nb="118">1190;86431.82123</row>
+                    <row nb="119">1200;85384.85206999999</row>
+                    <row nb="120">1210;84336.47573000001</row>
+                    <row nb="121">1220;83286.68721</row>
+                    <row nb="122">1230;82235.48150000001</row>
+                    <row nb="123">1240;81182.85331000001</row>
+                    <row nb="124">1250;80128.79705000001</row>
+                    <row nb="125">1260;79073.30684999999</row>
+                    <row nb="126">1270;78016.37687000001</row>
+                    <row nb="127">1280;76958.00083999999</row>
+                    <row nb="128">1290;75898.17225</row>
+                    <row nb="129">1300;74836.88462000001</row>
+                    <row nb="130">1310;73774.13142999999</row>
+                    <row nb="131">1320;72709.90568000001</row>
+                    <row nb="132">1330;71644.20078</row>
+                    <row nb="133">1340;70577.00994</row>
+                    <row nb="134">1350;69508.65121</row>
+                    <row nb="135">1360;68440.52928</row>
+                    <row nb="136">1370;67371.05142</row>
+                    <row nb="137">1380;66300.21747</row>
+                    <row nb="138">1390;65228.02744000001</row>
+                    <row nb="139">1400;64154.4813</row>
+                    <row nb="140">1410;63079.5787</row>
+                    <row nb="141">1420;55332.11760999999</row>
+                    <row nb="142">1430;45371.60855</row>
+                    <row nb="143">1440;38840.30622</row>
+                    <row nb="144">1450;36429.75427999999</row>
+                    <row nb="145">1460;35510.15502</row>
+                    <row nb="146">1470;34615.04442</row>
+                    <row nb="147">1480;33744.85818</row>
+                    <row nb="148">1490;32900.03206</row>
+                    <row nb="149">1500;32081.00184</row>
+                    <row nb="150">1510;30848.90059</row>
+                    <row nb="151">1520;22359.70321</row>
+                    <row nb="152">1530;3123.347331</row>
+                </sfDataTable>
+            </table>
+        </table_peak_temperature_pair>
+    </youngs_modulus_table_peak_temperature_pairs>
+    <youngs_modulus_table id="1">
+        <sfDataTable name="Young's modulus" type="0" columns="2" rows="152" version="12.1">
+            <idTag>47##Default</idTag>
+            <comment></comment>
+            <type>0</type>
+            <columns>2</columns>
+            <rows>152</rows>
+            <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+            <columndata title="Young's modulus" name="Young's modulus" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+            <row nb="1">25;211157.8132</row>
+            <row nb="2">30;210948.8435</row>
+            <row nb="3">40;210528.4873</row>
+            <row nb="4">50;210102.5622</row>
+            <row nb="5">60;209668.5938</row>
+            <row nb="6">70;209224.4476</row>
+            <row nb="7">80;208768.2798</row>
+            <row nb="8">90;208298.4983</row>
+            <row nb="9">100;207813.7284</row>
+            <row nb="10">110;207312.7846</row>
+            <row nb="11">120;206794.6463</row>
+            <row nb="12">130;206258.4379</row>
+            <row nb="13">140;205703.4105</row>
+            <row nb="14">150;205128.9277</row>
+            <row nb="15">160;204534.4518</row>
+            <row nb="16">170;203919.5336</row>
+            <row nb="17">180;203283.8015</row>
+            <row nb="18">190;202626.9544</row>
+            <row nb="19">200;201948.753</row>
+            <row nb="20">210;201249.0143</row>
+            <row nb="21">220;200527.6056</row>
+            <row nb="22">230;199784.4393</row>
+            <row nb="23">240;199019.4688</row>
+            <row nb="24">250;198232.6844</row>
+            <row nb="25">260;197424.11</row>
+            <row nb="26">270;196593.7996</row>
+            <row nb="27">280;195741.8353</row>
+            <row nb="28">290;194868.3241</row>
+            <row nb="29">300;193973.3961</row>
+            <row nb="30">310;193057.2023</row>
+            <row nb="31">320;192119.9132</row>
+            <row nb="32">330;191161.7168</row>
+            <row nb="33">340;190182.8172</row>
+            <row nb="34">350;189183.4337</row>
+            <row nb="35">360;188163.7992</row>
+            <row nb="36">370;187124.1592</row>
+            <row nb="37">380;186064.7709</row>
+            <row nb="38">390;184985.9034</row>
+            <row nb="39">400;183887.8326</row>
+            <row nb="40">410;182770.8469</row>
+            <row nb="41">420;181635.2421</row>
+            <row nb="42">430;180481.3222</row>
+            <row nb="43">440;179309.3986</row>
+            <row nb="44">450;178119.7893</row>
+            <row nb="45">460;176912.8193</row>
+            <row nb="46">470;175688.819</row>
+            <row nb="47">480;174448.125</row>
+            <row nb="48">490;173191.0786</row>
+            <row nb="49">500;171918.0265</row>
+            <row nb="50">510;170629.3195</row>
+            <row nb="51">520;169325.313</row>
+            <row nb="52">530;168006.3665</row>
+            <row nb="53">540;166672.843</row>
+            <row nb="54">550;165325.1093</row>
+            <row nb="55">560;163963.5354</row>
+            <row nb="56">570;162588.4944</row>
+            <row nb="57">580;161200.3626</row>
+            <row nb="58">590;159799.5187</row>
+            <row nb="59">600;158386.3445</row>
+            <row nb="60">610;156958.7354</row>
+            <row nb="61">620;155519.3371</row>
+            <row nb="62">630;154068.494</row>
+            <row nb="63">640;152606.5497</row>
+            <row nb="64">650;151133.8446</row>
+            <row nb="65">660;149650.7173</row>
+            <row nb="66">670;148157.5028</row>
+            <row nb="67">680;146654.5321</row>
+            <row nb="68">690;145142.1327</row>
+            <row nb="69">700;143620.6262</row>
+            <row nb="70">710;142090.3294</row>
+            <row nb="71">720;140551.5515</row>
+            <row nb="72">730;138824.0528</row>
+            <row nb="73">740;137265.5083</row>
+            <row nb="74">750;135701.1014</row>
+            <row nb="75">760;134132.199</row>
+            <row nb="76">770;132560.2983</row>
+            <row nb="77">780;130986.112</row>
+            <row nb="78">790;129411.6991</row>
+            <row nb="79">800;127839.834</row>
+            <row nb="80">810;126274.5642</row>
+            <row nb="81">820;124722.0524</row>
+            <row nb="82">830;123192.0334</row>
+            <row nb="83">840;121700.5647</row>
+            <row nb="84">850;120275.2324</row>
+            <row nb="85">860;118965.1656</row>
+            <row nb="86">870;117859.221</row>
+            <row nb="87">880;117105.8959</row>
+            <row nb="88">890;116801.3617</row>
+            <row nb="89">900;116194.6829</row>
+            <row nb="90">910;115187.455</row>
+            <row nb="91">920;114178.871</row>
+            <row nb="92">930;113168.9301</row>
+            <row nb="93">940;112157.6323</row>
+            <row nb="94">950;111144.9775</row>
+            <row nb="95">960;110130.965</row>
+            <row nb="96">970;109115.5945</row>
+            <row nb="97">980;108098.8657</row>
+            <row nb="98">990;107080.7778</row>
+            <row nb="99">1000;106061.3302</row>
+            <row nb="100">1010;105040.5222</row>
+            <row nb="101">1020;104018.3534</row>
+            <row nb="102">1030;102994.8223</row>
+            <row nb="103">1040;101969.9283</row>
+            <row nb="104">1050;100943.6702</row>
+            <row nb="105">1060;99916.04665</row>
+            <row nb="106">1070;98887.05647000001</row>
+            <row nb="107">1080;97856.69799</row>
+            <row nb="108">1090;96824.96952</row>
+            <row nb="109">1100;95791.86921999999</row>
+            <row nb="110">1110;94757.39503</row>
+            <row nb="111">1120;93721.54466</row>
+            <row nb="112">1130;92684.31546</row>
+            <row nb="113">1140;91645.70505999999</row>
+            <row nb="114">1150;90605.71036</row>
+            <row nb="115">1160;89564.32820999999</row>
+            <row nb="116">1170;88521.55509000001</row>
+            <row nb="117">1180;87477.38739</row>
+            <row nb="118">1190;86431.82123</row>
+            <row nb="119">1200;85384.85206999999</row>
+            <row nb="120">1210;84336.47573000001</row>
+            <row nb="121">1220;83286.68721</row>
+            <row nb="122">1230;82235.48150000001</row>
+            <row nb="123">1240;81182.85331000001</row>
+            <row nb="124">1250;80128.79705000001</row>
+            <row nb="125">1260;79073.30684999999</row>
+            <row nb="126">1270;78016.37687000001</row>
+            <row nb="127">1280;76958.00083999999</row>
+            <row nb="128">1290;75898.17225</row>
+            <row nb="129">1300;74836.88462000001</row>
+            <row nb="130">1310;73774.13142999999</row>
+            <row nb="131">1320;72709.90568000001</row>
+            <row nb="132">1330;71644.20078</row>
+            <row nb="133">1340;70577.00994</row>
+            <row nb="134">1350;69508.65121</row>
+            <row nb="135">1360;68440.52928</row>
+            <row nb="136">1370;67371.05142</row>
+            <row nb="137">1380;66300.21747</row>
+            <row nb="138">1390;65228.02744000001</row>
+            <row nb="139">1400;64154.4813</row>
+            <row nb="140">1410;63079.5787</row>
+            <row nb="141">1420;55332.11760999999</row>
+            <row nb="142">1430;45371.60855</row>
+            <row nb="143">1440;38840.30622</row>
+            <row nb="144">1450;36429.75427999999</row>
+            <row nb="145">1460;35510.15502</row>
+            <row nb="146">1470;34615.04442</row>
+            <row nb="147">1480;33744.85818</row>
+            <row nb="148">1490;32900.03206</row>
+            <row nb="149">1500;32081.00184</row>
+            <row nb="150">1510;30848.90059</row>
+            <row nb="151">1520;22359.70321</row>
+            <row nb="152">1530;3123.347331</row>
+        </sfDataTable>
+    </youngs_modulus_table>
+    <transverse_contraction dimension="-1" unit="0" unit_symbol="-">0.3</transverse_contraction>
+    <transverse_contraction_table id="2">
+        <sfDataTable name="Poisson's ratio" type="0" columns="2" rows="159" version="12.1">
+            <idTag>50##Default</idTag>
+            <comment></comment>
+            <type>0</type>
+            <columns>2</columns>
+            <rows>159</rows>
+            <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+            <columndata title="Poisson's ratio" name="Poisson's ratio" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="2"/>
+            <row nb="1">25;0.2898497655</row>
+            <row nb="2">30;0.2900484001</row>
+            <row nb="3">40;0.2904456734</row>
+            <row nb="4">50;0.2908429522</row>
+            <row nb="5">60;0.2912402365</row>
+            <row nb="6">70;0.2916375262</row>
+            <row nb="7">80;0.2920348215</row>
+            <row nb="8">90;0.2924321221</row>
+            <row nb="9">100;0.2928294282</row>
+            <row nb="10">110;0.2932267398</row>
+            <row nb="11">120;0.2936240567</row>
+            <row nb="12">130;0.2940213791</row>
+            <row nb="13">140;0.2944187068</row>
+            <row nb="14">150;0.29481604</row>
+            <row nb="15">160;0.2952133785</row>
+            <row nb="16">170;0.2956107223</row>
+            <row nb="17">180;0.2960080715</row>
+            <row nb="18">190;0.296405426</row>
+            <row nb="19">200;0.2968027859</row>
+            <row nb="20">210;0.297200151</row>
+            <row nb="21">220;0.2975975214</row>
+            <row nb="22">230;0.2979948971</row>
+            <row nb="23">240;0.298392278</row>
+            <row nb="24">250;0.2987896642</row>
+            <row nb="25">260;0.2991870555</row>
+            <row nb="26">270;0.2995844521</row>
+            <row nb="27">280;0.2999818539</row>
+            <row nb="28">290;0.3003792608</row>
+            <row nb="29">300;0.3007766729</row>
+            <row nb="30">310;0.3011740901</row>
+            <row nb="31">320;0.3015715124</row>
+            <row nb="32">330;0.3019689398</row>
+            <row nb="33">340;0.3023663722</row>
+            <row nb="34">350;0.3027638097</row>
+            <row nb="35">360;0.3031612523</row>
+            <row nb="36">370;0.3035586998</row>
+            <row nb="37">380;0.3039561524</row>
+            <row nb="38">390;0.3043536099</row>
+            <row nb="39">400;0.3047510723</row>
+            <row nb="40">410;0.3051485397</row>
+            <row nb="41">420;0.3055460119</row>
+            <row nb="42">430;0.3059434891</row>
+            <row nb="43">440;0.306340971</row>
+            <row nb="44">450;0.3067384579</row>
+            <row nb="45">460;0.3071359495</row>
+            <row nb="46">470;0.3075334459</row>
+            <row nb="47">480;0.307930947</row>
+            <row nb="48">490;0.3083284529</row>
+            <row nb="49">500;0.3087259635</row>
+            <row nb="50">510;0.3091234788</row>
+            <row nb="51">520;0.3095209987</row>
+            <row nb="52">530;0.3099185232</row>
+            <row nb="53">540;0.3103160524</row>
+            <row nb="54">550;0.3107135861</row>
+            <row nb="55">560;0.3111111243</row>
+            <row nb="56">570;0.3115086671</row>
+            <row nb="57">580;0.3119062144</row>
+            <row nb="58">590;0.3123037661</row>
+            <row nb="59">600;0.3127013222</row>
+            <row nb="60">610;0.3131017884</row>
+            <row nb="61">620;0.3135026655</row>
+            <row nb="62">630;0.3139039961</row>
+            <row nb="63">640;0.3143058277</row>
+            <row nb="64">650;0.3147082106</row>
+            <row nb="65">660;0.3151112011</row>
+            <row nb="66">670;0.3155148591</row>
+            <row nb="67">680;0.3159192496</row>
+            <row nb="68">690;0.3163244453</row>
+            <row nb="69">700;0.3167305231</row>
+            <row nb="70">710;0.3171375685</row>
+            <row nb="71">720;0.3175456742</row>
+            <row nb="72">730;0.318512864</row>
+            <row nb="73">740;0.3189987935</row>
+            <row nb="74">750;0.31950179</row>
+            <row nb="75">760;0.3200242429</row>
+            <row nb="76">770;0.3205694373</row>
+            <row nb="77">780;0.3211472481</row>
+            <row nb="78">790;0.3217667023</row>
+            <row nb="79">800;0.3224408857</row>
+            <row nb="80">810;0.3231884473</row>
+            <row nb="81">820;0.3240367385</row>
+            <row nb="82">830;0.3250272417</row>
+            <row nb="83">840;0.3262253285</row>
+            <row nb="84">850;0.3277385542</row>
+            <row nb="85">860;0.3297516966</row>
+            <row nb="86">870;0.332591464</row>
+            <row nb="87">880;0.3368036546</row>
+            <row nb="88">890;0.3428715709</row>
+            <row nb="89">900;0.3470211721</row>
+            <row nb="90">910;0.3476267836</row>
+            <row nb="91">920;0.3482323962</row>
+            <row nb="92">930;0.3488380076</row>
+            <row nb="93">940;0.3494436174</row>
+            <row nb="94">950;0.3500492247</row>
+            <row nb="95">960;0.3506548277</row>
+            <row nb="96">970;0.3512604248</row>
+            <row nb="97">980;0.3518660146</row>
+            <row nb="98">990;0.3524715948</row>
+            <row nb="99">1000;0.3530771629</row>
+            <row nb="100">1010;0.3536827159</row>
+            <row nb="101">1020;0.354288252</row>
+            <row nb="102">1030;0.3548937659</row>
+            <row nb="103">1040;0.3554992545</row>
+            <row nb="104">1050;0.3561047133</row>
+            <row nb="105">1060;0.3567101368</row>
+            <row nb="106">1070;0.3573155198</row>
+            <row nb="107">1080;0.3579208555</row>
+            <row nb="108">1090;0.3585261367</row>
+            <row nb="109">1100;0.3591313556</row>
+            <row nb="110">1110;0.3597365029</row>
+            <row nb="111">1120;0.3603415688</row>
+            <row nb="112">1130;0.3609465417</row>
+            <row nb="113">1140;0.3615514105</row>
+            <row nb="114">1150;0.3621561614</row>
+            <row nb="115">1160;0.3627607799</row>
+            <row nb="116">1170;0.3633652495</row>
+            <row nb="117">1180;0.3639695534</row>
+            <row nb="118">1190;0.364573673</row>
+            <row nb="119">1200;0.3651775861</row>
+            <row nb="120">1210;0.3657812723</row>
+            <row nb="121">1220;0.3663847067</row>
+            <row nb="122">1230;0.3669878641</row>
+            <row nb="123">1240;0.3675907172</row>
+            <row nb="124">1250;0.368193237</row>
+            <row nb="125">1260;0.3687953923</row>
+            <row nb="126">1270;0.3693971514</row>
+            <row nb="127">1280;0.3699984803</row>
+            <row nb="128">1290;0.3705993419</row>
+            <row nb="129">1300;0.3711996993</row>
+            <row nb="130">1310;0.3717995143</row>
+            <row nb="131">1320;0.3723987453</row>
+            <row nb="132">1330;0.3729973515</row>
+            <row nb="133">1340;0.3735952903</row>
+            <row nb="134">1350;0.3741939601</row>
+            <row nb="135">1360;0.374799588</row>
+            <row nb="136">1370;0.3754052211</row>
+            <row nb="137">1380;0.3760108585</row>
+            <row nb="138">1390;0.3766165002</row>
+            <row nb="139">1400;0.3772221459</row>
+            <row nb="140">1410;0.3778277934</row>
+            <row nb="141">1420;0.3698452289</row>
+            <row nb="142">1430;0.3577839821</row>
+            <row nb="143">1440;0.3490115809</row>
+            <row nb="144">1450;0.3467296375</row>
+            <row nb="145">1460;0.3471290278</row>
+            <row nb="146">1470;0.3475284225</row>
+            <row nb="147">1480;0.3479278214</row>
+            <row nb="148">1490;0.348327224</row>
+            <row nb="149">1500;0.3487266292</row>
+            <row nb="150">1510;0.3496573736</row>
+            <row nb="151">1520;0.3607856872</row>
+            <row nb="152">1530;0.414578717</row>
+            <row nb="153">1540;0.4999043601</row>
+            <row nb="154">1550;0.49990436</row>
+            <row nb="155">1560;0.4999043598</row>
+            <row nb="156">1570;0.49990436</row>
+            <row nb="157">1580;0.4999043599</row>
+            <row nb="158">1590;0.4999043602</row>
+            <row nb="159">1600;0.4999043598</row>
+        </sfDataTable>
+    </transverse_contraction_table>
+    <transverse_contraction_user_selection_datatype>0</transverse_contraction_user_selection_datatype>
+    <thermal_expansion_table_peak_temperature_pairs>
+        <table_peak_temperature_pair>
+            <peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</peak_temperature>
+            <table id="3">
+                <sfDataTable name="Thermal expansion coeff." type="0" columns="2" rows="30" version="12.1">
+                    <idTag>53##Default</idTag>
+                    <comment></comment>
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>30</rows>
+                    <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+                    <columndata title="Thermal expansion coeff." name="Thermal expansion coef." type="0" datatype="1" fffunit="983040" unit_symbol="1/K" usage="2"/>
+                    <row nb="1">0;0</row>
+                    <row nb="2">20;0</row>
+                    <row nb="3">30;1.228462230854493e-5</row>
+                    <row nb="4">100;1.253724282234168e-5</row>
+                    <row nb="5">200;1.289894846237768e-5</row>
+                    <row nb="6">300;1.326160845664651e-5</row>
+                    <row nb="7">400;1.362522231376711e-5</row>
+                    <row nb="8">500;1.398978995615256e-5</row>
+                    <row nb="9">600;1.435531152360623e-5</row>
+                    <row nb="10">700;1.479024761305632e-5</row>
+                    <row nb="11">800;1.477211052283782e-5</row>
+                    <row nb="12">900;1.134344756188745e-5</row>
+                    <row nb="13">1000;1.27302083383479e-5</row>
+                    <row nb="14">1100;1.387092866377499e-5</row>
+                    <row nb="15">1200;1.483703452791863e-5</row>
+                    <row nb="16">1300;1.568877219689058e-5</row>
+                    <row nb="17">1400;1.64239864763278e-5</row>
+                    <row nb="18">1500;1.785196955221952e-5</row>
+                    <row nb="19">1510;1.791565080049179e-5</row>
+                    <row nb="20">1520;1.853198097063335e-5</row>
+                    <row nb="21">1530;2.158932526084967e-5</row>
+                    <row nb="22">1540;2.670290305846147e-5</row>
+                    <row nb="23">1550;2.680888962182476e-5</row>
+                    <row nb="24">1560;2.691502812954902e-5</row>
+                    <row nb="25">1570;2.702131593535071e-5</row>
+                    <row nb="26">1580;2.712774976610319e-5</row>
+                    <row nb="27">1590;2.723432721287423e-5</row>
+                    <row nb="28">1600;2.734104500318042e-5</row>
+                    <row nb="29">1610;0</row>
+                    <row nb="30">1620;0</row>
+                </sfDataTable>
+            </table>
+        </table_peak_temperature_pair>
+    </thermal_expansion_table_peak_temperature_pairs>
+    <thermal_expansion_table id="3">
+        <sfDataTable name="Thermal expansion coeff." type="0" columns="2" rows="30" version="12.1">
+            <idTag>53##Default</idTag>
+            <comment></comment>
+            <type>0</type>
+            <columns>2</columns>
+            <rows>30</rows>
+            <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+            <columndata title="Thermal expansion coeff." name="Thermal expansion coef." type="0" datatype="1" fffunit="983040" unit_symbol="1/K" usage="2"/>
+            <row nb="1">0;0</row>
+            <row nb="2">20;0</row>
+            <row nb="3">30;1.228462230854493e-5</row>
+            <row nb="4">100;1.253724282234168e-5</row>
+            <row nb="5">200;1.289894846237768e-5</row>
+            <row nb="6">300;1.326160845664651e-5</row>
+            <row nb="7">400;1.362522231376711e-5</row>
+            <row nb="8">500;1.398978995615256e-5</row>
+            <row nb="9">600;1.435531152360623e-5</row>
+            <row nb="10">700;1.479024761305632e-5</row>
+            <row nb="11">800;1.477211052283782e-5</row>
+            <row nb="12">900;1.134344756188745e-5</row>
+            <row nb="13">1000;1.27302083383479e-5</row>
+            <row nb="14">1100;1.387092866377499e-5</row>
+            <row nb="15">1200;1.483703452791863e-5</row>
+            <row nb="16">1300;1.568877219689058e-5</row>
+            <row nb="17">1400;1.64239864763278e-5</row>
+            <row nb="18">1500;1.785196955221952e-5</row>
+            <row nb="19">1510;1.791565080049179e-5</row>
+            <row nb="20">1520;1.853198097063335e-5</row>
+            <row nb="21">1530;2.158932526084967e-5</row>
+            <row nb="22">1540;2.670290305846147e-5</row>
+            <row nb="23">1550;2.680888962182476e-5</row>
+            <row nb="24">1560;2.691502812954902e-5</row>
+            <row nb="25">1570;2.702131593535071e-5</row>
+            <row nb="26">1580;2.712774976610319e-5</row>
+            <row nb="27">1590;2.723432721287423e-5</row>
+            <row nb="28">1600;2.734104500318042e-5</row>
+            <row nb="29">1610;0</row>
+            <row nb="30">1620;0</row>
+        </sfDataTable>
+    </thermal_expansion_table>
+    <density_table_peak_temperature_pairs>
+        <table_peak_temperature_pair>
+            <peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</peak_temperature>
+            <table id="6">
+                <sfDataTable name="Density" type="0" columns="2" rows="159" version="12.1">
+                    <idTag>56##Default</idTag>
+                    <comment></comment>
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>159</rows>
+                    <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+                    <columndata title="Density" name="Density" type="0" datatype="1" fffunit="720902" unit_symbol="g/cm³" usage="2"/>
+                    <row nb="1">25;7.857659404</row>
+                    <row nb="2">30;7.856211746</row>
+                    <row nb="3">40;7.853305293</row>
+                    <row nb="4">50;7.850384014</row>
+                    <row nb="5">60;7.847447938</row>
+                    <row nb="6">70;7.844497094</row>
+                    <row nb="7">80;7.84153151</row>
+                    <row nb="8">90;7.838551218</row>
+                    <row nb="9">100;7.835556244</row>
+                    <row nb="10">110;7.83254662</row>
+                    <row nb="11">120;7.829522375</row>
+                    <row nb="12">130;7.826483538</row>
+                    <row nb="13">140;7.823430141</row>
+                    <row nb="14">150;7.820362212</row>
+                    <row nb="15">160;7.817279782</row>
+                    <row nb="16">170;7.814182882</row>
+                    <row nb="17">180;7.811071542</row>
+                    <row nb="18">190;7.807945794</row>
+                    <row nb="19">200;7.804805667</row>
+                    <row nb="20">210;7.801651193</row>
+                    <row nb="21">220;7.798482403</row>
+                    <row nb="22">230;7.795299329</row>
+                    <row nb="23">240;7.792102002</row>
+                    <row nb="24">250;7.788890453</row>
+                    <row nb="25">260;7.785664715</row>
+                    <row nb="26">270;7.78242482</row>
+                    <row nb="27">280;7.779170799</row>
+                    <row nb="28">290;7.775902684</row>
+                    <row nb="29">300;7.772620508</row>
+                    <row nb="30">310;7.769324304</row>
+                    <row nb="31">320;7.766014104</row>
+                    <row nb="32">330;7.762689941</row>
+                    <row nb="33">340;7.759351847</row>
+                    <row nb="34">350;7.755999857</row>
+                    <row nb="35">360;7.752634002</row>
+                    <row nb="36">370;7.749254316</row>
+                    <row nb="37">380;7.745860833</row>
+                    <row nb="38">390;7.742453587</row>
+                    <row nb="39">400;7.73903261</row>
+                    <row nb="40">410;7.735597937</row>
+                    <row nb="41">420;7.732149602</row>
+                    <row nb="42">430;7.728687638</row>
+                    <row nb="43">440;7.725212081</row>
+                    <row nb="44">450;7.721722963</row>
+                    <row nb="45">460;7.718220321</row>
+                    <row nb="46">470;7.714704188</row>
+                    <row nb="47">480;7.711174599</row>
+                    <row nb="48">490;7.707631589</row>
+                    <row nb="49">500;7.704075193</row>
+                    <row nb="50">510;7.700505446</row>
+                    <row nb="51">520;7.696922383</row>
+                    <row nb="52">530;7.69332604</row>
+                    <row nb="53">540;7.689716451</row>
+                    <row nb="54">550;7.686093653</row>
+                    <row nb="55">560;7.682457681</row>
+                    <row nb="56">570;7.678808571</row>
+                    <row nb="57">580;7.675146359</row>
+                    <row nb="58">590;7.671471081</row>
+                    <row nb="59">600;7.667782772</row>
+                    <row nb="60">610;7.664014978</row>
+                    <row nb="61">620;7.660227999</row>
+                    <row nb="62">630;7.656421285</row>
+                    <row nb="63">640;7.652594205</row>
+                    <row nb="64">650;7.648746118</row>
+                    <row nb="65">660;7.64487631</row>
+                    <row nb="66">670;7.640984036</row>
+                    <row nb="67">680;7.637068489</row>
+                    <row nb="68">690;7.633128791</row>
+                    <row nb="69">700;7.629164013</row>
+                    <row nb="70">710;7.625173138</row>
+                    <row nb="71">720;7.621155117</row>
+                    <row nb="72">730;7.618800408</row>
+                    <row nb="73">740;7.615389169</row>
+                    <row nb="74">750;7.612036407</row>
+                    <row nb="75">760;7.60874789</row>
+                    <row nb="76">770;7.605533685</row>
+                    <row nb="77">780;7.602437568</row>
+                    <row nb="78">790;7.599492769</row>
+                    <row nb="79">800;7.59674789</row>
+                    <row nb="80">810;7.594271924</row>
+                    <row nb="81">820;7.592165362</row>
+                    <row nb="82">830;7.590579548</row>
+                    <row nb="83">840;7.589751295</row>
+                    <row nb="84">850;7.590066587</row>
+                    <row nb="85">860;7.592181128</row>
+                    <row nb="86">870;7.597232692</row>
+                    <row nb="87">880;7.607046409</row>
+                    <row nb="88">890;7.62288983</row>
+                    <row nb="89">900;7.630450861</row>
+                    <row nb="90">910;7.624937616</row>
+                    <row nb="91">920;7.619430273</row>
+                    <row nb="92">930;7.613928794</row>
+                    <row nb="93">940;7.608433106</row>
+                    <row nb="94">950;7.602943129</row>
+                    <row nb="95">960;7.597458813</row>
+                    <row nb="96">970;7.591980064</row>
+                    <row nb="97">980;7.586506787</row>
+                    <row nb="98">990;7.581038891</row>
+                    <row nb="99">1000;7.575576271</row>
+                    <row nb="100">1010;7.570118819</row>
+                    <row nb="101">1020;7.564666379</row>
+                    <row nb="102">1030;7.559218839</row>
+                    <row nb="103">1040;7.553776027</row>
+                    <row nb="104">1050;7.548337775</row>
+                    <row nb="105">1060;7.542903892</row>
+                    <row nb="106">1070;7.537474168</row>
+                    <row nb="107">1080;7.532048369</row>
+                    <row nb="108">1090;7.526626261</row>
+                    <row nb="109">1100;7.521207582</row>
+                    <row nb="110">1110;7.515791961</row>
+                    <row nb="111">1120;7.510379102</row>
+                    <row nb="112">1130;7.504968624</row>
+                    <row nb="113">1140;7.499560163</row>
+                    <row nb="114">1150;7.494153285</row>
+                    <row nb="115">1160;7.488747504</row>
+                    <row nb="116">1170;7.483342318</row>
+                    <row nb="117">1180;7.477937176</row>
+                    <row nb="118">1190;7.472531523</row>
+                    <row nb="119">1200;7.46712466</row>
+                    <row nb="120">1210;7.461715941</row>
+                    <row nb="121">1220;7.456304637</row>
+                    <row nb="122">1230;7.450889987</row>
+                    <row nb="123">1240;7.445471167</row>
+                    <row nb="124">1250;7.440047321</row>
+                    <row nb="125">1260;7.434617504</row>
+                    <row nb="126">1270;7.42918084</row>
+                    <row nb="127">1280;7.423736311</row>
+                    <row nb="128">1290;7.418282837</row>
+                    <row nb="129">1300;7.412819381</row>
+                    <row nb="130">1310;7.407344816</row>
+                    <row nb="131">1320;7.401858039</row>
+                    <row nb="132">1330;7.396357867</row>
+                    <row nb="133">1340;7.390843118</row>
+                    <row nb="134">1350;7.385357744</row>
+                    <row nb="135">1360;7.380094402</row>
+                    <row nb="136">1370;7.374835887</row>
+                    <row nb="137">1380;7.369582163</row>
+                    <row nb="138">1390;7.364333186</row>
+                    <row nb="139">1400;7.35908889</row>
+                    <row nb="140">1410;7.353849171</row>
+                    <row nb="141">1420;7.34128593</row>
+                    <row nb="142">1430;7.325498924</row>
+                    <row nb="143">1440;7.312706217</row>
+                    <row nb="144">1450;7.305687322</row>
+                    <row nb="145">1460;7.301046033</row>
+                    <row nb="146">1470;7.296395392</row>
+                    <row nb="147">1480;7.291735417</row>
+                    <row nb="148">1490;7.287066103</row>
+                    <row nb="149">1500;7.282387402</row>
+                    <row nb="150">1510;7.276862314</row>
+                    <row nb="151">1520;7.25467992</row>
+                    <row nb="152">1530;7.159756429</row>
+                    <row nb="153">1540;7.007229223</row>
+                    <row nb="154">1550;6.999202572</row>
+                    <row nb="155">1560;6.991150379</row>
+                    <row nb="156">1570;6.983072885</row>
+                    <row nb="157">1580;6.974970328</row>
+                    <row nb="158">1590;6.966842948</row>
+                    <row nb="159">1600;6.958690984</row>
+                </sfDataTable>
+            </table>
+        </table_peak_temperature_pair>
+    </density_table_peak_temperature_pairs>
+    <density_table id="6">
+        <sfDataTable name="Density" type="0" columns="2" rows="159" version="12.1">
+            <idTag>56##Default</idTag>
+            <comment></comment>
+            <type>0</type>
+            <columns>2</columns>
+            <rows>159</rows>
+            <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+            <columndata title="Density" name="Density" type="0" datatype="1" fffunit="720902" unit_symbol="g/cm³" usage="2"/>
+            <row nb="1">25;7.857659404</row>
+            <row nb="2">30;7.856211746</row>
+            <row nb="3">40;7.853305293</row>
+            <row nb="4">50;7.850384014</row>
+            <row nb="5">60;7.847447938</row>
+            <row nb="6">70;7.844497094</row>
+            <row nb="7">80;7.84153151</row>
+            <row nb="8">90;7.838551218</row>
+            <row nb="9">100;7.835556244</row>
+            <row nb="10">110;7.83254662</row>
+            <row nb="11">120;7.829522375</row>
+            <row nb="12">130;7.826483538</row>
+            <row nb="13">140;7.823430141</row>
+            <row nb="14">150;7.820362212</row>
+            <row nb="15">160;7.817279782</row>
+            <row nb="16">170;7.814182882</row>
+            <row nb="17">180;7.811071542</row>
+            <row nb="18">190;7.807945794</row>
+            <row nb="19">200;7.804805667</row>
+            <row nb="20">210;7.801651193</row>
+            <row nb="21">220;7.798482403</row>
+            <row nb="22">230;7.795299329</row>
+            <row nb="23">240;7.792102002</row>
+            <row nb="24">250;7.788890453</row>
+            <row nb="25">260;7.785664715</row>
+            <row nb="26">270;7.78242482</row>
+            <row nb="27">280;7.779170799</row>
+            <row nb="28">290;7.775902684</row>
+            <row nb="29">300;7.772620508</row>
+            <row nb="30">310;7.769324304</row>
+            <row nb="31">320;7.766014104</row>
+            <row nb="32">330;7.762689941</row>
+            <row nb="33">340;7.759351847</row>
+            <row nb="34">350;7.755999857</row>
+            <row nb="35">360;7.752634002</row>
+            <row nb="36">370;7.749254316</row>
+            <row nb="37">380;7.745860833</row>
+            <row nb="38">390;7.742453587</row>
+            <row nb="39">400;7.73903261</row>
+            <row nb="40">410;7.735597937</row>
+            <row nb="41">420;7.732149602</row>
+            <row nb="42">430;7.728687638</row>
+            <row nb="43">440;7.725212081</row>
+            <row nb="44">450;7.721722963</row>
+            <row nb="45">460;7.718220321</row>
+            <row nb="46">470;7.714704188</row>
+            <row nb="47">480;7.711174599</row>
+            <row nb="48">490;7.707631589</row>
+            <row nb="49">500;7.704075193</row>
+            <row nb="50">510;7.700505446</row>
+            <row nb="51">520;7.696922383</row>
+            <row nb="52">530;7.69332604</row>
+            <row nb="53">540;7.689716451</row>
+            <row nb="54">550;7.686093653</row>
+            <row nb="55">560;7.682457681</row>
+            <row nb="56">570;7.678808571</row>
+            <row nb="57">580;7.675146359</row>
+            <row nb="58">590;7.671471081</row>
+            <row nb="59">600;7.667782772</row>
+            <row nb="60">610;7.664014978</row>
+            <row nb="61">620;7.660227999</row>
+            <row nb="62">630;7.656421285</row>
+            <row nb="63">640;7.652594205</row>
+            <row nb="64">650;7.648746118</row>
+            <row nb="65">660;7.64487631</row>
+            <row nb="66">670;7.640984036</row>
+            <row nb="67">680;7.637068489</row>
+            <row nb="68">690;7.633128791</row>
+            <row nb="69">700;7.629164013</row>
+            <row nb="70">710;7.625173138</row>
+            <row nb="71">720;7.621155117</row>
+            <row nb="72">730;7.618800408</row>
+            <row nb="73">740;7.615389169</row>
+            <row nb="74">750;7.612036407</row>
+            <row nb="75">760;7.60874789</row>
+            <row nb="76">770;7.605533685</row>
+            <row nb="77">780;7.602437568</row>
+            <row nb="78">790;7.599492769</row>
+            <row nb="79">800;7.59674789</row>
+            <row nb="80">810;7.594271924</row>
+            <row nb="81">820;7.592165362</row>
+            <row nb="82">830;7.590579548</row>
+            <row nb="83">840;7.589751295</row>
+            <row nb="84">850;7.590066587</row>
+            <row nb="85">860;7.592181128</row>
+            <row nb="86">870;7.597232692</row>
+            <row nb="87">880;7.607046409</row>
+            <row nb="88">890;7.62288983</row>
+            <row nb="89">900;7.630450861</row>
+            <row nb="90">910;7.624937616</row>
+            <row nb="91">920;7.619430273</row>
+            <row nb="92">930;7.613928794</row>
+            <row nb="93">940;7.608433106</row>
+            <row nb="94">950;7.602943129</row>
+            <row nb="95">960;7.597458813</row>
+            <row nb="96">970;7.591980064</row>
+            <row nb="97">980;7.586506787</row>
+            <row nb="98">990;7.581038891</row>
+            <row nb="99">1000;7.575576271</row>
+            <row nb="100">1010;7.570118819</row>
+            <row nb="101">1020;7.564666379</row>
+            <row nb="102">1030;7.559218839</row>
+            <row nb="103">1040;7.553776027</row>
+            <row nb="104">1050;7.548337775</row>
+            <row nb="105">1060;7.542903892</row>
+            <row nb="106">1070;7.537474168</row>
+            <row nb="107">1080;7.532048369</row>
+            <row nb="108">1090;7.526626261</row>
+            <row nb="109">1100;7.521207582</row>
+            <row nb="110">1110;7.515791961</row>
+            <row nb="111">1120;7.510379102</row>
+            <row nb="112">1130;7.504968624</row>
+            <row nb="113">1140;7.499560163</row>
+            <row nb="114">1150;7.494153285</row>
+            <row nb="115">1160;7.488747504</row>
+            <row nb="116">1170;7.483342318</row>
+            <row nb="117">1180;7.477937176</row>
+            <row nb="118">1190;7.472531523</row>
+            <row nb="119">1200;7.46712466</row>
+            <row nb="120">1210;7.461715941</row>
+            <row nb="121">1220;7.456304637</row>
+            <row nb="122">1230;7.450889987</row>
+            <row nb="123">1240;7.445471167</row>
+            <row nb="124">1250;7.440047321</row>
+            <row nb="125">1260;7.434617504</row>
+            <row nb="126">1270;7.42918084</row>
+            <row nb="127">1280;7.423736311</row>
+            <row nb="128">1290;7.418282837</row>
+            <row nb="129">1300;7.412819381</row>
+            <row nb="130">1310;7.407344816</row>
+            <row nb="131">1320;7.401858039</row>
+            <row nb="132">1330;7.396357867</row>
+            <row nb="133">1340;7.390843118</row>
+            <row nb="134">1350;7.385357744</row>
+            <row nb="135">1360;7.380094402</row>
+            <row nb="136">1370;7.374835887</row>
+            <row nb="137">1380;7.369582163</row>
+            <row nb="138">1390;7.364333186</row>
+            <row nb="139">1400;7.35908889</row>
+            <row nb="140">1410;7.353849171</row>
+            <row nb="141">1420;7.34128593</row>
+            <row nb="142">1430;7.325498924</row>
+            <row nb="143">1440;7.312706217</row>
+            <row nb="144">1450;7.305687322</row>
+            <row nb="145">1460;7.301046033</row>
+            <row nb="146">1470;7.296395392</row>
+            <row nb="147">1480;7.291735417</row>
+            <row nb="148">1490;7.287066103</row>
+            <row nb="149">1500;7.282387402</row>
+            <row nb="150">1510;7.276862314</row>
+            <row nb="151">1520;7.25467992</row>
+            <row nb="152">1530;7.159756429</row>
+            <row nb="153">1540;7.007229223</row>
+            <row nb="154">1550;6.999202572</row>
+            <row nb="155">1560;6.991150379</row>
+            <row nb="156">1570;6.983072885</row>
+            <row nb="157">1580;6.974970328</row>
+            <row nb="158">1590;6.966842948</row>
+            <row nb="159">1600;6.958690984</row>
+        </sfDataTable>
+    </density_table>
+    <thermal_conductivity_table_peak_temperature_pairs>
+        <table_peak_temperature_pair>
+            <peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</peak_temperature>
+            <table id="7">
+                <sfDataTable name="Thermal conductivity" type="0" columns="2" rows="17" version="12.1">
+                    <idTag>59##Default</idTag>
+                    <comment></comment>
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>17</rows>
+                    <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+                    <columndata title="Thermal conductivity" name="Thermal conductivity" type="0" datatype="1" fffunit="917504" unit_symbol="J/(m·s·K)" usage="2"/>
+                    <row nb="1">25;71.82454675</row>
+                    <row nb="2">100;66.13012897999999</row>
+                    <row nb="3">200;59.01388345</row>
+                    <row nb="4">300;52.56164945</row>
+                    <row nb="5">400;46.87676387</row>
+                    <row nb="6">500;42.03197112</row>
+                    <row nb="7">600;38.06850255</row>
+                    <row nb="8">700;35.01804511</row>
+                    <row nb="9">800;32.30306651</row>
+                    <row nb="10">900;27.97617409</row>
+                    <row nb="11">1000;29.18033087</row>
+                    <row nb="12">1100;30.38450519</row>
+                    <row nb="13">1200;31.5889367</row>
+                    <row nb="14">1300;32.79404712</row>
+                    <row nb="15">1400;33.99881737</row>
+                    <row nb="16">1500;35.48167801</row>
+                    <row nb="17">1600;35.22500194</row>
+                </sfDataTable>
+            </table>
+        </table_peak_temperature_pair>
+    </thermal_conductivity_table_peak_temperature_pairs>
+    <thermal_conductivity_table id="7">
+        <sfDataTable name="Thermal conductivity" type="0" columns="2" rows="17" version="12.1">
+            <idTag>59##Default</idTag>
+            <comment></comment>
+            <type>0</type>
+            <columns>2</columns>
+            <rows>17</rows>
+            <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+            <columndata title="Thermal conductivity" name="Thermal conductivity" type="0" datatype="1" fffunit="917504" unit_symbol="J/(m·s·K)" usage="2"/>
+            <row nb="1">25;71.82454675</row>
+            <row nb="2">100;66.13012897999999</row>
+            <row nb="3">200;59.01388345</row>
+            <row nb="4">300;52.56164945</row>
+            <row nb="5">400;46.87676387</row>
+            <row nb="6">500;42.03197112</row>
+            <row nb="7">600;38.06850255</row>
+            <row nb="8">700;35.01804511</row>
+            <row nb="9">800;32.30306651</row>
+            <row nb="10">900;27.97617409</row>
+            <row nb="11">1000;29.18033087</row>
+            <row nb="12">1100;30.38450519</row>
+            <row nb="13">1200;31.5889367</row>
+            <row nb="14">1300;32.79404712</row>
+            <row nb="15">1400;33.99881737</row>
+            <row nb="16">1500;35.48167801</row>
+            <row nb="17">1600;35.22500194</row>
+        </sfDataTable>
+    </thermal_conductivity_table>
+    <specific_heat_capacity_table_peak_temperature_pairs>
+        <table_peak_temperature_pair>
+            <peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</peak_temperature>
+            <table id="9">
+                <sfDataTable name="Specific heat capacity" type="0" columns="2" rows="17" version="12.1">
+                    <idTag>62##Default</idTag>
+                    <comment></comment>
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>17</rows>
+                    <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+                    <columndata title="Specific heat capacity" name="Heat capacity" type="0" datatype="1" fffunit="1179648" unit_symbol="kJ/(kg·K)" usage="2"/>
+                    <row nb="1">25;0.44608</row>
+                    <row nb="2">100;0.47662</row>
+                    <row nb="3">200;0.51571</row>
+                    <row nb="4">300;0.55974</row>
+                    <row nb="5">400;0.61328</row>
+                    <row nb="6">500;0.6817299999999999</row>
+                    <row nb="7">600;0.78064</row>
+                    <row nb="8">700;0.93291</row>
+                    <row nb="9">800;0.88101</row>
+                    <row nb="10">900;0.60732</row>
+                    <row nb="11">1000;0.62286</row>
+                    <row nb="12">1100;0.63881</row>
+                    <row nb="13">1200;0.65576</row>
+                    <row nb="14">1300;0.67491</row>
+                    <row nb="15">1400;0.6846</row>
+                    <row nb="16">1500;0.73573</row>
+                    <row nb="17">1600;0.8242699999999999</row>
+                </sfDataTable>
+            </table>
+        </table_peak_temperature_pair>
+    </specific_heat_capacity_table_peak_temperature_pairs>
+    <specific_heat_capacity_table id="9">
+        <sfDataTable name="Specific heat capacity" type="0" columns="2" rows="17" version="12.1">
+            <idTag>62##Default</idTag>
+            <comment></comment>
+            <type>0</type>
+            <columns>2</columns>
+            <rows>17</rows>
+            <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+            <columndata title="Specific heat capacity" name="Heat capacity" type="0" datatype="1" fffunit="1179648" unit_symbol="kJ/(kg·K)" usage="2"/>
+            <row nb="1">25;0.44608</row>
+            <row nb="2">100;0.47662</row>
+            <row nb="3">200;0.51571</row>
+            <row nb="4">300;0.55974</row>
+            <row nb="5">400;0.61328</row>
+            <row nb="6">500;0.6817299999999999</row>
+            <row nb="7">600;0.78064</row>
+            <row nb="8">700;0.93291</row>
+            <row nb="9">800;0.88101</row>
+            <row nb="10">900;0.60732</row>
+            <row nb="11">1000;0.62286</row>
+            <row nb="12">1100;0.63881</row>
+            <row nb="13">1200;0.65576</row>
+            <row nb="14">1300;0.67491</row>
+            <row nb="15">1400;0.6846</row>
+            <row nb="16">1500;0.73573</row>
+            <row nb="17">1600;0.8242699999999999</row>
+        </sfDataTable>
+    </specific_heat_capacity_table>
+    <melting_point dimension="8" unit="1" unit_symbol="°C">1533.0</melting_point>
+    <solidus_temperature dimension="8" unit="1" unit_symbol="°C">1507.0</solidus_temperature>
+    <latent_heat dimension="25" unit="0" unit_symbol="J/kg">256400.0</latent_heat>
+    <dissipation_factor dimension="-1" unit="0" unit_symbol="-">0.9</dissipation_factor>
+    <dissipation_factor_user_selection_datatype>0</dissipation_factor_user_selection_datatype>
+    <electrical_resisitivity_table id="11">
+        <sfDataTable name="Electrical resistivity" type="2" columns="2" rows="53" version="12.1">
+            <idTag>65##Default</idTag>
+            <comment></comment>
+            <type>2</type>
+            <columns>2</columns>
+            <rows>53</rows>
+            <columndata title="Temperature" name="Temperature" type="0" datatype="1" fffunit="524289" unit_symbol="°C" usage="1"/>
+            <columndata title="Electrical resistivity" name="Electrical resistivity" type="0" datatype="1" fffunit="2818048" unit_symbol="Ω·m" usage="2"/>
+            <row nb="1">20;2.33506e-7</row>
+            <row nb="2">38.0952;2.43506e-7</row>
+            <row nb="3">51.4286;2.5e-7</row>
+            <row nb="4">68.5714;2.5974e-7</row>
+            <row nb="5">93.33329999999999;2.75974e-7</row>
+            <row nb="6">121.905;2.92208e-7</row>
+            <row nb="7">163.81;3.18182e-7</row>
+            <row nb="8">186.667;3.37662e-7</row>
+            <row nb="9">205.714;3.50649e-7</row>
+            <row nb="10">241.905;3.76623e-7</row>
+            <row nb="11">266.667;3.96104e-7</row>
+            <row nb="12">300.952;4.22078e-7</row>
+            <row nb="13">323.81;4.41558e-7</row>
+            <row nb="14">340.952;4.577919999999999e-7</row>
+            <row nb="15">371.429;4.83766e-7</row>
+            <row nb="16">384.762;4.96753e-7</row>
+            <row nb="17">403.81;5.16234e-7</row>
+            <row nb="18">422.857;5.35714e-7</row>
+            <row nb="19">447.619;5.61688e-7</row>
+            <row nb="20">464.762;5.77922e-7</row>
+            <row nb="21">493.333;6.07143e-7</row>
+            <row nb="22">516.1900000000001;6.33117e-7</row>
+            <row nb="23">540.952;6.59091e-7</row>
+            <row nb="24">563.8099999999999;6.91558e-7</row>
+            <row nb="25">584.7619999999999;7.20779e-7</row>
+            <row nb="26">615.2380000000001;7.597400000000001e-7</row>
+            <row nb="27">636.1900000000001;7.88961e-7</row>
+            <row nb="28">647.619;8.051950000000001e-7</row>
+            <row nb="29">672.381;8.40909e-7</row>
+            <row nb="30">681.905;8.57143e-7</row>
+            <row nb="31">699.048;8.86364e-7</row>
+            <row nb="32">714.2859999999999;9.09091e-7</row>
+            <row nb="33">735.2380000000001;9.48052e-7</row>
+            <row nb="34">740.952;9.57792e-7</row>
+            <row nb="35">744.7619999999999;9.707789999999999e-7</row>
+            <row nb="36">748.571;9.837659999999999e-7</row>
+            <row nb="37">752.381;9.9026e-7</row>
+            <row nb="38">758.095;1.00974e-6</row>
+            <row nb="39">763.8099999999999;1.02273e-6</row>
+            <row nb="40">775.2380000000001;1.04221e-6</row>
+            <row nb="41">786.667;1.05519e-6</row>
+            <row nb="42">801.905;1.06494e-6</row>
+            <row nb="43">817.143;1.07468e-6</row>
+            <row nb="44">832.381;1.08117e-6</row>
+            <row nb="45">847.619;1.08442e-6</row>
+            <row nb="46">870.476;1.09416e-6</row>
+            <row nb="47">895.2380000000001;1.1039e-6</row>
+            <row nb="48">920;1.11364e-6</row>
+            <row nb="49">940.952;1.12013e-6</row>
+            <row nb="50">960;1.12662e-6</row>
+            <row nb="51">980.952;1.13312e-6</row>
+            <row nb="52">1000;1.13961e-6</row>
+            <row nb="53">1022.86;1.1461e-6</row>
+        </sfDataTable>
+    </electrical_resisitivity_table>
+    <electrical_resisitivity_user_selection_datatype>1</electrical_resisitivity_user_selection_datatype>
+    <electrical_conductivity_conversion_factor dimension="-1" unit="0" unit_symbol="-">1.0</electrical_conductivity_conversion_factor>
+    <diffusivity element="C" phase="Austenite">
+        <autoScaling>1</autoScaling>
+        <useDefaultEquation>1</useDefaultEquation>
+        <scalingFactor>1</scalingFactor>
+        <transformationThreshold>0.3</transformationThreshold>
+        <value valueType="constant">
+            <value>0</value>
+            <alphaCoeff auto="false">
+                <sfDataTable name="" type="0" columns="2" rows="3" version="12.1">
+                    <idTag></idTag>
+                    <comment></comment>
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>3</rows>
+                    <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                    <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="2"/>
+                    <row nb="1">0;1</row>
+                    <row nb="2">0.75;1</row>
+                    <row nb="3">1.5;1</row>
+                </sfDataTable>
+            </alphaCoeff>
+            <flowStressScalingFactor auto="false">
+                <sfDataTable name="" type="0" columns="2" rows="3" version="12.1">
+                    <idTag></idTag>
+                    <comment></comment>
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>3</rows>
+                    <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                    <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="2"/>
+                    <row nb="1">0;1</row>
+                    <row nb="2">0.75;1</row>
+                    <row nb="3">1.5;1</row>
+                </sfDataTable>
+            </flowStressScalingFactor>
+            <tripCoeffScalingFactor auto="false">
+                <sfDataTable name="" type="0" columns="2" rows="3" version="12.1">
+                    <idTag></idTag>
+                    <comment></comment>
+                    <type>0</type>
+                    <columns>2</columns>
+                    <rows>3</rows>
+                    <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                    <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="2"/>
+                    <row nb="1">0;1</row>
+                    <row nb="2">0.75;1</row>
+                    <row nb="3">1.5;1</row>
+                </sfDataTable>
+            </tripCoeffScalingFactor>
+        </value>
+    </diffusivity>
+    <PowderProperties>
+        <avgGrainSize dimension="5" unit="0" Version="1">0.0</avgGrainSize>
+        <grainSizeRangeMin dimension="5" unit="0" Version="1">0.0</grainSizeRangeMin>
+        <grainSizeRangeMax dimension="5" unit="0" Version="1">0.0</grainSizeRangeMax>
+        <costs undefined="true" Version="1"/>
+        <coldSpotTemp undefined="true" Version="1"/>
+        <hotSpotTemp undefined="true" Version="1"/>
+        <type></type>
+        <figures/>
+    </PowderProperties>
+    <flow_curves_used_approach>0</flow_curves_used_approach>
+    <flow_curves_table_approach>
+        <usePeakTemperatures>true</usePeakTemperatures>
+        <temperatures count="17">
+            <temperature dimension="8" unit="1" unit_symbol="°C">25.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">100.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">200.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">300.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">400.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">500.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">560.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">600.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">700.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">800.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">900.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">1000.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">1100.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">1200.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">1300.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">1400.0</temperature>
+            <temperature dimension="8" unit="1" unit_symbol="°C">1500.0</temperature>
+        </temperatures>
+        <strain_rates count="1">
+            <strain_rate dimension="24" unit="0" unit_symbol="1/s">0.01</strain_rate>
+        </strain_rates>
+        <peak_temperatures count="1">
+            <peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</peak_temperature>
+        </peak_temperatures>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">25.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=25.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>0</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;182.1345</row>
+                <row nb="2">0.02;335.1844</row>
+                <row nb="3">0.04;381.2237</row>
+                <row nb="4">0.06;411.4394</row>
+                <row nb="5">0.08;434.4407</row>
+                <row nb="6">0.1;453.2175</row>
+                <row nb="7">0.12;469.1886</row>
+                <row nb="8">0.14;483.1476</row>
+                <row nb="9">0.16;495.5858</row>
+                <row nb="10">0.18;506.8303</row>
+                <row nb="11">0.2;517.1104</row>
+                <row nb="12">0.22;526.5934999999999</row>
+                <row nb="13">0.24;535.4059</row>
+                <row nb="14">0.26;543.6452</row>
+                <row nb="15">0.28;551.3886</row>
+                <row nb="16">0.3;558.6982</row>
+                <row nb="17">0.32;565.6249</row>
+                <row nb="18">0.34;572.2109</row>
+                <row nb="19">0.36;578.4915</row>
+                <row nb="20">0.38;584.4965999999999</row>
+                <row nb="21">0.4;590.252</row>
+                <row nb="22">0.42;595.7797</row>
+                <row nb="23">0.44;601.0989</row>
+                <row nb="24">0.46;606.2264</row>
+                <row nb="25">0.48;611.1771</row>
+                <row nb="26">0.5;615.9640000000001</row>
+                <row nb="27">0.6;637.8094</row>
+                <row nb="28">0.7;656.8874</row>
+                <row nb="29">0.8;673.8774</row>
+                <row nb="30">0.9;689.23</row>
+                <row nb="31">1;703.2611000000001</row>
+                <row nb="32">1.1;716.2008</row>
+                <row nb="33">1.2;728.2225</row>
+                <row nb="34">1.3;739.4602</row>
+                <row nb="35">1.4;750.0196999999999</row>
+                <row nb="36">1.5;759.9864</row>
+                <row nb="37">1.6;769.4298</row>
+                <row nb="38">1.7;778.4077</row>
+                <row nb="39">1.8;786.9684</row>
+                <row nb="40">1.9;795.153</row>
+                <row nb="41">2;802.9965999999999</row>
+                <row nb="42">2.1;810.5293</row>
+                <row nb="43">2.2;817.7775</row>
+                <row nb="44">2.3;824.7641</row>
+                <row nb="45">2.4;831.5094</row>
+                <row nb="46">2.5;838.0312</row>
+                <row nb="47">2.6;844.3454</row>
+                <row nb="48">2.7;850.4663</row>
+                <row nb="49">2.8;856.4066</row>
+                <row nb="50">2.9;862.1778</row>
+                <row nb="51">3;867.7904</row>
+                <row nb="52">3.1;873.2537</row>
+                <row nb="53">3.2;878.5762999999999</row>
+                <row nb="54">3.3;883.7662</row>
+                <row nb="55">3.4;888.8305</row>
+                <row nb="56">3.5;893.7757</row>
+                <row nb="57">3.6;898.6079999999999</row>
+                <row nb="58">3.7;903.333</row>
+                <row nb="59">3.8;907.9559</row>
+                <row nb="60">3.9;912.4815</row>
+                <row nb="61">4;916.9142000000001</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">100.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=100.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>1</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;122.1464</row>
+                <row nb="2">0.02;273.418</row>
+                <row nb="3">0.04;318.8765</row>
+                <row nb="4">0.06;349.1778</row>
+                <row nb="5">0.08;372.4924</row>
+                <row nb="6">0.1;391.681</row>
+                <row nb="7">0.12;408.1109</row>
+                <row nb="8">0.14;422.551</row>
+                <row nb="9">0.16;435.4798</row>
+                <row nb="10">0.18;447.2173</row>
+                <row nb="11">0.2;457.9886</row>
+                <row nb="12">0.22;467.9588</row>
+                <row nb="13">0.24;477.2525</row>
+                <row nb="14">0.26;485.9666</row>
+                <row nb="15">0.28;494.1778</row>
+                <row nb="16">0.3;501.9481</row>
+                <row nb="17">0.32;509.3283</row>
+                <row nb="18">0.34;516.3606</row>
+                <row nb="19">0.36;523.0803</row>
+                <row nb="20">0.38;529.5177</row>
+                <row nb="21">0.4;535.6986000000001</row>
+                <row nb="22">0.42;541.6452</row>
+                <row nb="23">0.44;547.3769</row>
+                <row nb="24">0.46;552.9108</row>
+                <row nb="25">0.48;558.2619</row>
+                <row nb="26">0.5;563.4435</row>
+                <row nb="27">0.6;587.1819</row>
+                <row nb="28">0.7;608.0346</row>
+                <row nb="29">0.8;626.698</row>
+                <row nb="30">0.9;643.6369</row>
+                <row nb="31">1;659.1779</row>
+                <row nb="32">1.1;673.5603</row>
+                <row nb="33">1.2;686.965</row>
+                <row nb="34">1.3;699.532</row>
+                <row nb="35">1.4;711.3726</row>
+                <row nb="36">1.5;722.5762999999999</row>
+                <row nb="37">1.6;733.2166</row>
+                <row nb="38">1.7;743.3546</row>
+                <row nb="39">1.8;753.0415</row>
+                <row nb="40">1.9;762.3208</row>
+                <row nb="41">2;771.2298</row>
+                <row nb="42">2.1;779.8008</row>
+                <row nb="43">2.2;788.0619</row>
+                <row nb="44">2.3;796.0375</row>
+                <row nb="45">2.4;803.7492999999999</row>
+                <row nb="46">2.5;811.2165</row>
+                <row nb="47">2.6;818.4562</row>
+                <row nb="48">2.7;825.4837</row>
+                <row nb="49">2.8;832.3128</row>
+                <row nb="50">2.9;838.9558</row>
+                <row nb="51">3;845.4239</row>
+                <row nb="52">3.1;851.7274</row>
+                <row nb="53">3.2;857.8756</row>
+                <row nb="54">3.3;863.877</row>
+                <row nb="55">3.4;869.7393</row>
+                <row nb="56">3.5;875.4698</row>
+                <row nb="57">3.6;881.0751</row>
+                <row nb="58">3.7;886.5612</row>
+                <row nb="59">3.8;891.9338</row>
+                <row nb="60">3.9;897.1982</row>
+                <row nb="61">4;902.3592</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">200.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=200.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>2</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;89.6195</row>
+                <row nb="2">0.02;234.2678</row>
+                <row nb="3">0.04;278.0001</row>
+                <row nb="4">0.06;307.4843</row>
+                <row nb="5">0.08;330.3444</row>
+                <row nb="6">0.1;349.2683</row>
+                <row nb="7">0.12;365.5473</row>
+                <row nb="8">0.14;379.9108</row>
+                <row nb="9">0.16;392.8144</row>
+                <row nb="10">0.18;404.5637</row>
+                <row nb="11">0.2;415.3742</row>
+                <row nb="12">0.22;425.4045</row>
+                <row nb="13">0.24;434.7745</row>
+                <row nb="14">0.26;443.5776</row>
+                <row nb="15">0.28;451.8879</row>
+                <row nb="16">0.3;459.7654</row>
+                <row nb="17">0.32;467.2593</row>
+                <row nb="18">0.34;474.4106</row>
+                <row nb="19">0.36;481.2538</row>
+                <row nb="20">0.38;487.8182</row>
+                <row nb="21">0.4;494.1289</row>
+                <row nb="22">0.42;500.2077</row>
+                <row nb="23">0.44;506.0736</row>
+                <row nb="24">0.46;511.7433</row>
+                <row nb="25">0.48;517.2313</row>
+                <row nb="26">0.5;522.5508</row>
+                <row nb="27">0.6;546.9872</row>
+                <row nb="28">0.7;568.54</row>
+                <row nb="29">0.8;587.897</row>
+                <row nb="30">0.9;605.5186</row>
+                <row nb="31">1;621.7297</row>
+                <row nb="32">1.1;636.7686</row>
+                <row nb="33">1.2;650.816</row>
+                <row nb="34">1.3;664.0123</row>
+                <row nb="35">1.4;676.4690000000001</row>
+                <row nb="36">1.5;688.276</row>
+                <row nb="37">1.6;699.5075000000001</row>
+                <row nb="38">1.7;710.2249</row>
+                <row nb="39">1.8;720.4801</row>
+                <row nb="40">1.9;730.317</row>
+                <row nb="41">2;739.7735</row>
+                <row nb="42">2.1;748.8822</row>
+                <row nb="43">2.2;757.6717</row>
+                <row nb="44">2.3;766.1667</row>
+                <row nb="45">2.4;774.3895</row>
+                <row nb="46">2.5;782.3596</row>
+                <row nb="47">2.6;790.0943</row>
+                <row nb="48">2.7;797.6093</row>
+                <row nb="49">2.8;804.9186</row>
+                <row nb="50">2.9;812.035</row>
+                <row nb="51">3;818.9698</row>
+                <row nb="52">3.1;825.7336</row>
+                <row nb="53">3.2;832.3359</row>
+                <row nb="54">3.3;838.7854</row>
+                <row nb="55">3.4;845.0902</row>
+                <row nb="56">3.5;851.2575000000001</row>
+                <row nb="57">3.6;857.2943</row>
+                <row nb="58">3.7;863.2067</row>
+                <row nb="59">3.8;869.0006</row>
+                <row nb="60">3.9;874.6814000000001</row>
+                <row nb="61">4;880.2541</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">300.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=300.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>3</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;75.37779999999999</row>
+                <row nb="2">0.02;212.5256</row>
+                <row nb="3">0.04;254.1644</row>
+                <row nb="4">0.06;282.3839</row>
+                <row nb="5">0.08;304.3397</row>
+                <row nb="6">0.1;322.5626</row>
+                <row nb="7">0.12;338.2716</row>
+                <row nb="8">0.14;352.1567</row>
+                <row nb="9">0.16;364.6494</row>
+                <row nb="10">0.18;376.0396</row>
+                <row nb="11">0.2;386.5322</row>
+                <row nb="12">0.22;396.2779</row>
+                <row nb="13">0.24;405.3909</row>
+                <row nb="14">0.26;413.9601</row>
+                <row nb="15">0.28;422.0563</row>
+                <row nb="16">0.3;429.7368</row>
+                <row nb="17">0.32;437.0485</row>
+                <row nb="18">0.34;444.0306</row>
+                <row nb="19">0.36;450.716</row>
+                <row nb="20">0.38;457.133</row>
+                <row nb="21">0.4;463.3054</row>
+                <row nb="22">0.42;469.2543</row>
+                <row nb="23">0.44;474.9977</row>
+                <row nb="24">0.46;480.5517</row>
+                <row nb="25">0.48;485.9303</row>
+                <row nb="26">0.5;491.146</row>
+                <row nb="27">0.6;515.1348</row>
+                <row nb="28">0.7;536.3313000000001</row>
+                <row nb="29">0.8;555.3978</row>
+                <row nb="30">0.9;572.7785</row>
+                <row nb="31">1;588.7873</row>
+                <row nb="32">1.1;603.6547</row>
+                <row nb="33">1.2;617.5556</row>
+                <row nb="34">1.3;630.6261</row>
+                <row nb="35">1.4;642.9742</row>
+                <row nb="36">1.5;654.6875</row>
+                <row nb="37">1.6;665.8379</row>
+                <row nb="38">1.7;676.4851</row>
+                <row nb="39">1.8;686.6796000000001</row>
+                <row nb="40">1.9;696.4643</row>
+                <row nb="41">2;705.8758</row>
+                <row nb="42">2.1;714.9462</row>
+                <row nb="43">2.2;723.7032</row>
+                <row nb="44">2.3;732.1711</row>
+                <row nb="45">2.4;740.3714</row>
+                <row nb="46">2.5;748.3233</row>
+                <row nb="47">2.6;756.0436999999999</row>
+                <row nb="48">2.7;763.5479</row>
+                <row nb="49">2.8;770.8497</row>
+                <row nb="50">2.9;777.9615</row>
+                <row nb="51">3;784.8945</row>
+                <row nb="52">3.1;791.659</row>
+                <row nb="53">3.2;798.2642</row>
+                <row nb="54">3.3;804.7188</row>
+                <row nb="55">3.4;811.0305</row>
+                <row nb="56">3.5;817.2067</row>
+                <row nb="57">3.6;823.254</row>
+                <row nb="58">3.7;829.1785</row>
+                <row nb="59">3.8;834.9859</row>
+                <row nb="60">3.9;840.6816</row>
+                <row nb="61">4;846.2705</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">400.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=400.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>4</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;68.71259999999999</row>
+                <row nb="2">0.02;197.3072</row>
+                <row nb="3">0.04;236.3186</row>
+                <row nb="4">0.06;262.7822</row>
+                <row nb="5">0.08;283.3849</row>
+                <row nb="6">0.1;300.4931</row>
+                <row nb="7">0.12;315.2471</row>
+                <row nb="8">0.14;328.2922</row>
+                <row nb="9">0.16;340.0325</row>
+                <row nb="10">0.18;350.7394</row>
+                <row nb="11">0.2;360.6047</row>
+                <row nb="12">0.22;369.7696</row>
+                <row nb="13">0.24;378.341</row>
+                <row nb="14">0.26;386.4024</row>
+                <row nb="15">0.28;394.0199</row>
+                <row nb="16">0.3;401.2473</row>
+                <row nb="17">0.32;408.1287</row>
+                <row nb="18">0.34;414.7006</row>
+                <row nb="19">0.36;420.9941</row>
+                <row nb="20">0.38;427.0355</row>
+                <row nb="21">0.4;432.8474</row>
+                <row nb="22">0.42;438.4492</row>
+                <row nb="23">0.44;443.8582</row>
+                <row nb="24">0.46;449.0892</row>
+                <row nb="25">0.48;454.1555</row>
+                <row nb="26">0.5;459.0688</row>
+                <row nb="27">0.6;481.6717</row>
+                <row nb="28">0.7;501.6505</row>
+                <row nb="29">0.8;519.6268</row>
+                <row nb="30">0.9;536.0181</row>
+                <row nb="31">1;551.1189000000001</row>
+                <row nb="32">1.1;565.1459</row>
+                <row nb="33">1.2;578.2635</row>
+                <row nb="34">1.3;590.5995</row>
+                <row nb="35">1.4;602.2557</row>
+                <row nb="36">1.5;613.3142</row>
+                <row nb="37">1.6;623.8427</row>
+                <row nb="38">1.7;633.8973999999999</row>
+                <row nb="39">1.8;643.5257</row>
+                <row nb="40">1.9;652.768</row>
+                <row nb="41">2;661.6589</row>
+                <row nb="42">2.1;670.2283</row>
+                <row nb="43">2.2;678.5024</row>
+                <row nb="44">2.3;686.5041</row>
+                <row nb="45">2.4;694.2537</row>
+                <row nb="46">2.5;701.7691</row>
+                <row nb="47">2.6;709.0664</row>
+                <row nb="48">2.7;716.1599</row>
+                <row nb="49">2.8;723.0626</row>
+                <row nb="50">2.9;729.7861</row>
+                <row nb="51">3;736.3411</row>
+                <row nb="52">3.1;742.7371000000001</row>
+                <row nb="53">3.2;748.9831</row>
+                <row nb="54">3.3;755.0869</row>
+                <row nb="55">3.4;761.0561</row>
+                <row nb="56">3.5;766.8973999999999</row>
+                <row nb="57">3.6;772.6171000000001</row>
+                <row nb="58">3.7;778.221</row>
+                <row nb="59">3.8;783.7145</row>
+                <row nb="60">3.9;789.1026000000001</row>
+                <row nb="61">4;794.3899</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">500.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=500.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>5</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;66.0788</row>
+                <row nb="2">0.02;184.663</row>
+                <row nb="3">0.04;220.405</row>
+                <row nb="4">0.06;244.5888</row>
+                <row nb="5">0.08;263.3853</row>
+                <row nb="6">0.1;278.9743</row>
+                <row nb="7">0.12;292.4048</row>
+                <row nb="8">0.14;304.2699</row>
+                <row nb="9">0.16;314.9407</row>
+                <row nb="10">0.18;324.6662</row>
+                <row nb="11">0.2;333.6223</row>
+                <row nb="12">0.22;341.9384</row>
+                <row nb="13">0.24;349.7125</row>
+                <row nb="14">0.26;357.021</row>
+                <row nb="15">0.28;363.9244</row>
+                <row nb="16">0.3;370.472</row>
+                <row nb="17">0.32;376.704</row>
+                <row nb="18">0.34;382.6539</row>
+                <row nb="19">0.36;388.3501</row>
+                <row nb="20">0.38;393.8166</row>
+                <row nb="21">0.4;399.074</row>
+                <row nb="22">0.42;404.1402</row>
+                <row nb="23">0.44;409.0308</row>
+                <row nb="24">0.46;413.7594</row>
+                <row nb="25">0.48;418.3381</row>
+                <row nb="26">0.5;422.7777</row>
+                <row nb="27">0.6;443.1897</row>
+                <row nb="28">0.7;461.2168</row>
+                <row nb="29">0.8;477.4256</row>
+                <row nb="30">0.9;492.1958</row>
+                <row nb="31">1;505.7956</row>
+                <row nb="32">1.1;518.4221</row>
+                <row nb="33">1.2;530.2246</row>
+                <row nb="34">1.3;541.3193</row>
+                <row nb="35">1.4;551.7984</row>
+                <row nb="36">1.5;561.7368</row>
+                <row nb="37">1.6;571.1956</row>
+                <row nb="38">1.7;580.226</row>
+                <row nb="39">1.8;588.8709</row>
+                <row nb="40">1.9;597.1668</row>
+                <row nb="41">2;605.1453</row>
+                <row nb="42">2.1;612.8334</row>
+                <row nb="43">2.2;620.2547</row>
+                <row nb="44">2.3;627.4301</row>
+                <row nb="45">2.4;634.3779</row>
+                <row nb="46">2.5;641.1144</row>
+                <row nb="47">2.6;647.654</row>
+                <row nb="48">2.7;654.0098</row>
+                <row nb="49">2.8;660.1935</row>
+                <row nb="50">2.9;666.2156</row>
+                <row nb="51">3;672.0857</row>
+                <row nb="52">3.1;677.8125</row>
+                <row nb="53">3.2;683.4041</row>
+                <row nb="54">3.3;688.8676</row>
+                <row nb="55">3.4;694.2097</row>
+                <row nb="56">3.5;699.4366</row>
+                <row nb="57">3.6;704.554</row>
+                <row nb="58">3.7;709.5671</row>
+                <row nb="59">3.8;714.4807</row>
+                <row nb="60">3.9;719.2995</row>
+                <row nb="61">4;724.0275</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">560.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=560.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>6</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;84.6844</row>
+                <row nb="2">0.02;176.6824</row>
+                <row nb="3">0.04;210.5153</row>
+                <row nb="4">0.06;233.235</row>
+                <row nb="5">0.08;250.8269</row>
+                <row nb="6">0.1;265.3809</row>
+                <row nb="7">0.12;277.8971</row>
+                <row nb="8">0.14;288.9389</row>
+                <row nb="9">0.16;298.8577</row>
+                <row nb="10">0.18;307.8889</row>
+                <row nb="11">0.2;316.1987</row>
+                <row nb="12">0.22;323.9088</row>
+                <row nb="13">0.24;331.1116</row>
+                <row nb="14">0.26;337.8789</row>
+                <row nb="15">0.28;344.2677</row>
+                <row nb="16">0.3;350.3241</row>
+                <row nb="17">0.32;356.0859</row>
+                <row nb="18">0.34;361.5845</row>
+                <row nb="19">0.36;366.8465</row>
+                <row nb="20">0.38;371.8944</row>
+                <row nb="21">0.4;376.7475</row>
+                <row nb="22">0.42;381.4225</row>
+                <row nb="23">0.44;385.934</row>
+                <row nb="24">0.46;390.2948</row>
+                <row nb="25">0.48;394.5161</row>
+                <row nb="26">0.5;398.608</row>
+                <row nb="27">0.6;417.4076</row>
+                <row nb="28">0.7;433.9926</row>
+                <row nb="29">0.8;448.8908</row>
+                <row nb="30">0.9;462.456</row>
+                <row nb="31">1;474.9374</row>
+                <row nb="32">1.1;486.5181</row>
+                <row nb="33">1.2;497.3369</row>
+                <row nb="34">1.3;507.5016</row>
+                <row nb="35">1.4;517.0977</row>
+                <row nb="36">1.5;526.1944999999999</row>
+                <row nb="37">1.6;534.8488</row>
+                <row nb="38">1.7;543.1079</row>
+                <row nb="39">1.8;551.0116</row>
+                <row nb="40">1.9;558.5936</row>
+                <row nb="41">2;565.883</row>
+                <row nb="42">2.1;572.905</row>
+                <row nb="43">2.2;579.6814000000001</row>
+                <row nb="44">2.3;586.2314</row>
+                <row nb="45">2.4;592.5719</row>
+                <row nb="46">2.5;598.718</row>
+                <row nb="47">2.6;604.683</row>
+                <row nb="48">2.7;610.479</row>
+                <row nb="49">2.8;616.1167</row>
+                <row nb="50">2.9;621.6059</row>
+                <row nb="51">3;626.9554000000001</row>
+                <row nb="52">3.1;632.1734</row>
+                <row nb="53">3.2;632.4023999999999</row>
+                <row nb="54">3.3;630.8171</row>
+                <row nb="55">3.4;629.2766</row>
+                <row nb="56">3.5;627.7868999999999</row>
+                <row nb="57">3.6;626.3383</row>
+                <row nb="58">3.7;624.9404</row>
+                <row nb="59">3.8;623.5691</row>
+                <row nb="60">3.9;622.2445</row>
+                <row nb="61">4;620.9593</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">600.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=600.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>7</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;84.0847</row>
+                <row nb="2">0.02;172.0537</row>
+                <row nb="3">0.04;204.2597</row>
+                <row nb="4">0.06;225.8257</row>
+                <row nb="5">0.08;242.4942</row>
+                <row nb="6">0.1;256.266</row>
+                <row nb="7">0.12;268.097</row>
+                <row nb="8">0.14;278.5251</row>
+                <row nb="9">0.16;287.8857</row>
+                <row nb="10">0.18;296.403</row>
+                <row nb="11">0.2;304.2354</row>
+                <row nb="12">0.22;311.4988</row>
+                <row nb="13">0.24;318.281</row>
+                <row nb="14">0.26;324.6504</row>
+                <row nb="15">0.28;330.6611</row>
+                <row nb="16">0.3;336.3569</row>
+                <row nb="17">0.32;341.7738</row>
+                <row nb="18">0.34;346.9416</row>
+                <row nb="19">0.36;351.8855</row>
+                <row nb="20">0.38;356.6268</row>
+                <row nb="21">0.4;361.184</row>
+                <row nb="22">0.42;365.5727</row>
+                <row nb="23">0.44;369.8069</row>
+                <row nb="24">0.46;373.8987</row>
+                <row nb="25">0.48;377.8587</row>
+                <row nb="26">0.5;381.6965</row>
+                <row nb="27">0.6;399.3182</row>
+                <row nb="28">0.7;414.8504</row>
+                <row nb="29">0.8;428.7925</row>
+                <row nb="30">0.9;441.4787</row>
+                <row nb="31">1;453.1447</row>
+                <row nb="32">1.1;463.593</row>
+                <row nb="33">1.2;460.4222</row>
+                <row nb="34">1.3;457.511</row>
+                <row nb="35">1.4;454.8272</row>
+                <row nb="36">1.5;452.3256</row>
+                <row nb="37">1.6;450.0059</row>
+                <row nb="38">1.7;447.8151</row>
+                <row nb="39">1.8;445.7598</row>
+                <row nb="40">1.9;443.8241</row>
+                <row nb="41">2;441.9977</row>
+                <row nb="42">2.1;440.248</row>
+                <row nb="43">2.2;438.5904</row>
+                <row nb="44">2.3;437.0242</row>
+                <row nb="45">2.4;435.5055</row>
+                <row nb="46">2.5;434.073</row>
+                <row nb="47">2.6;432.6831</row>
+                <row nb="48">2.7;431.355</row>
+                <row nb="49">2.8;430.0868</row>
+                <row nb="50">2.9;428.8561</row>
+                <row nb="51">3;427.6661</row>
+                <row nb="52">3.1;426.521</row>
+                <row nb="53">3.2;425.4163</row>
+                <row nb="54">3.3;424.3483</row>
+                <row nb="55">3.4;423.3139</row>
+                <row nb="56">3.5;422.3109</row>
+                <row nb="57">3.6;421.3374</row>
+                <row nb="58">3.7;420.392</row>
+                <row nb="59">3.8;419.4737</row>
+                <row nb="60">3.9;418.5816</row>
+                <row nb="61">4;417.7155</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">700.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=700.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>8</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;83.4753</row>
+                <row nb="2">0.02;160.5546</row>
+                <row nb="3">0.04;188.3619</row>
+                <row nb="4">0.06;193.5954</row>
+                <row nb="5">0.08;193.3551</row>
+                <row nb="6">0.1;192.9235</row>
+                <row nb="7">0.12;192.28</row>
+                <row nb="8">0.14;191.4858</row>
+                <row nb="9">0.16;190.601</row>
+                <row nb="10">0.18;189.6765</row>
+                <row nb="11">0.2;188.745</row>
+                <row nb="12">0.22;187.8295</row>
+                <row nb="13">0.24;186.9436</row>
+                <row nb="14">0.26;186.0792</row>
+                <row nb="15">0.28;185.2404</row>
+                <row nb="16">0.3;184.4412</row>
+                <row nb="17">0.32;183.6861</row>
+                <row nb="18">0.34;182.9801</row>
+                <row nb="19">0.36;182.265</row>
+                <row nb="20">0.38;181.595</row>
+                <row nb="21">0.4;180.9808</row>
+                <row nb="22">0.42;180.3439</row>
+                <row nb="23">0.44;179.7616</row>
+                <row nb="24">0.46;179.1964</row>
+                <row nb="25">0.48;178.6444</row>
+                <row nb="26">0.5;178.1311</row>
+                <row nb="27">0.6;175.7547</row>
+                <row nb="28">0.7;173.7286</row>
+                <row nb="29">0.8;171.9896</row>
+                <row nb="30">0.9;170.4021</row>
+                <row nb="31">1;169.0361</row>
+                <row nb="32">1.1;167.7589</row>
+                <row nb="33">1.2;166.6031</row>
+                <row nb="34">1.3;165.5479</row>
+                <row nb="35">1.4;164.5751</row>
+                <row nb="36">1.5;163.6749</row>
+                <row nb="37">1.6;162.8436</row>
+                <row nb="38">1.7;162.0617</row>
+                <row nb="39">1.8;161.2967</row>
+                <row nb="40">1.9;160.5925</row>
+                <row nb="41">2;159.9571</row>
+                <row nb="42">2.1;159.3015</row>
+                <row nb="43">2.2;158.7051</row>
+                <row nb="44">2.3;158.1439</row>
+                <row nb="45">2.4;157.5829</row>
+                <row nb="46">2.5;157.0837</row>
+                <row nb="47">2.6;156.5599</row>
+                <row nb="48">2.7;156.1008</row>
+                <row nb="49">2.8;155.6194</row>
+                <row nb="50">2.9;155.185</row>
+                <row nb="51">3;154.7538</row>
+                <row nb="52">3.1;154.332</row>
+                <row nb="53">3.2;153.9612</row>
+                <row nb="54">3.3;153.5426</row>
+                <row nb="55">3.4;153.1812</row>
+                <row nb="56">3.5;152.8212</row>
+                <row nb="57">3.6;152.452</row>
+                <row nb="58">3.7;152.1296</row>
+                <row nb="59">3.8;151.7922</row>
+                <row nb="60">3.9;151.4547</row>
+                <row nb="61">4;151.1569</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">800.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=800.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>9</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;78.0412</row>
+                <row nb="2">0.02;78.041</row>
+                <row nb="3">0.04;78.0389</row>
+                <row nb="4">0.06;78.02979999999999</row>
+                <row nb="5">0.08;78.0059</row>
+                <row nb="6">0.1;77.9516</row>
+                <row nb="7">0.12;77.85809999999999</row>
+                <row nb="8">0.14;77.72110000000001</row>
+                <row nb="9">0.16;77.5433</row>
+                <row nb="10">0.18;77.3385</row>
+                <row nb="11">0.2;77.1232</row>
+                <row nb="12">0.22;76.8797</row>
+                <row nb="13">0.24;76.596</row>
+                <row nb="14">0.26;76.33110000000001</row>
+                <row nb="15">0.28;76.0943</row>
+                <row nb="16">0.3;75.8276</row>
+                <row nb="17">0.32;75.54510000000001</row>
+                <row nb="18">0.34;75.2974</row>
+                <row nb="19">0.36;75.0842</row>
+                <row nb="20">0.38;74.84</row>
+                <row nb="21">0.4;74.5802</row>
+                <row nb="22">0.42;74.35420000000001</row>
+                <row nb="23">0.44;74.1592</row>
+                <row nb="24">0.46;73.986</row>
+                <row nb="25">0.48;73.7388</row>
+                <row nb="26">0.5;73.5219</row>
+                <row nb="27">0.6;72.622</row>
+                <row nb="28">0.7;71.872</row>
+                <row nb="29">0.8;71.16240000000001</row>
+                <row nb="30">0.9;70.51949999999999</row>
+                <row nb="31">1;70.0301</row>
+                <row nb="32">1.1;69.4602</row>
+                <row nb="33">1.2;69.05840000000001</row>
+                <row nb="34">1.3;68.58199999999999</row>
+                <row nb="35">1.4;68.2051</row>
+                <row nb="36">1.5;67.86960000000001</row>
+                <row nb="37">1.6;67.4781</row>
+                <row nb="38">1.7;67.1835</row>
+                <row nb="39">1.8;66.9198</row>
+                <row nb="40">1.9;66.57729999999999</row>
+                <row nb="41">2;66.30840000000001</row>
+                <row nb="42">2.1;66.0955</row>
+                <row nb="43">2.2;65.85080000000001</row>
+                <row nb="44">2.3;65.57510000000001</row>
+                <row nb="45">2.4;65.3501</row>
+                <row nb="46">2.5;65.1652</row>
+                <row nb="47">2.6;65.0124</row>
+                <row nb="48">2.7;64.7667</row>
+                <row nb="49">2.8;64.5492</row>
+                <row nb="50">2.9;64.3657</row>
+                <row nb="51">3;64.2099</row>
+                <row nb="52">3.1;64.0771</row>
+                <row nb="53">3.2;63.9246</row>
+                <row nb="54">3.3;63.7227</row>
+                <row nb="55">3.4;63.5478</row>
+                <row nb="56">3.5;63.3959</row>
+                <row nb="57">3.6;63.2634</row>
+                <row nb="58">3.7;63.1475</row>
+                <row nb="59">3.8;63.0458</row>
+                <row nb="60">3.9;62.9087</row>
+                <row nb="61">4;62.7432</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">900.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=900.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>10</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;43.0903</row>
+                <row nb="2">0.02;80.8242</row>
+                <row nb="3">0.04;93.3884</row>
+                <row nb="4">0.06;95.2893</row>
+                <row nb="5">0.08;95.2743</row>
+                <row nb="6">0.1;95.2432</row>
+                <row nb="7">0.12;95.1884</row>
+                <row nb="8">0.14;95.1026</row>
+                <row nb="9">0.16;94.9785</row>
+                <row nb="10">0.18;94.80419999999999</row>
+                <row nb="11">0.2;94.58750000000001</row>
+                <row nb="12">0.22;94.3368</row>
+                <row nb="13">0.24;94.06399999999999</row>
+                <row nb="14">0.26;93.744</row>
+                <row nb="15">0.28;93.40730000000001</row>
+                <row nb="16">0.3;93.0775</row>
+                <row nb="17">0.32;92.7127</row>
+                <row nb="18">0.34;92.3509</row>
+                <row nb="19">0.36;92.0158</row>
+                <row nb="20">0.38;91.6358</row>
+                <row nb="21">0.4;91.2838</row>
+                <row nb="22">0.42;90.9563</row>
+                <row nb="23">0.44;90.5894</row>
+                <row nb="24">0.46;90.2581</row>
+                <row nb="25">0.48;89.9492</row>
+                <row nb="26">0.5;89.6024</row>
+                <row nb="27">0.6;88.1191</row>
+                <row nb="28">0.7;86.7838</row>
+                <row nb="29">0.8;85.5896</row>
+                <row nb="30">0.9;84.5284</row>
+                <row nb="31">1;83.5731</row>
+                <row nb="32">1.1;82.7109</row>
+                <row nb="33">1.2;81.93980000000001</row>
+                <row nb="34">1.3;81.1871</row>
+                <row nb="35">1.4;80.4931</row>
+                <row nb="36">1.5;79.8909</row>
+                <row nb="37">1.6;79.2787</row>
+                <row nb="38">1.7;78.7307</row>
+                <row nb="39">1.8;78.2116</row>
+                <row nb="40">1.9;77.7186</row>
+                <row nb="41">2;77.2522</row>
+                <row nb="42">2.1;76.8245</row>
+                <row nb="43">2.2;76.3841</row>
+                <row nb="44">2.3;76.0265</row>
+                <row nb="45">2.4;75.60550000000001</row>
+                <row nb="46">2.5;75.24720000000001</row>
+                <row nb="47">2.6;74.925</row>
+                <row nb="48">2.7;74.5535</row>
+                <row nb="49">2.8;74.2406</row>
+                <row nb="50">2.9;73.9639</row>
+                <row nb="51">3;73.6255</row>
+                <row nb="52">3.1;73.3357</row>
+                <row nb="53">3.2;73.0868</row>
+                <row nb="54">3.3;72.8064</row>
+                <row nb="55">3.4;72.5245</row>
+                <row nb="56">3.5;72.2791</row>
+                <row nb="57">3.6;72.06480000000001</row>
+                <row nb="58">3.7;71.81270000000001</row>
+                <row nb="59">3.8;71.5608</row>
+                <row nb="60">3.9;71.33839999999999</row>
+                <row nb="61">4;71.1417</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">1000.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=1000.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>11</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;31.4188</row>
+                <row nb="2">0.02;58.9696</row>
+                <row nb="3">0.04;65.2337</row>
+                <row nb="4">0.06;65.2299</row>
+                <row nb="5">0.08;65.2196</row>
+                <row nb="6">0.1;65.19840000000001</row>
+                <row nb="7">0.12;65.1611</row>
+                <row nb="8">0.14;65.10290000000001</row>
+                <row nb="9">0.16;65.0202</row>
+                <row nb="10">0.18;64.9007</row>
+                <row nb="11">0.2;64.7475</row>
+                <row nb="12">0.22;64.5688</row>
+                <row nb="13">0.24;64.3725</row>
+                <row nb="14">0.26;64.1681</row>
+                <row nb="15">0.28;63.9551</row>
+                <row nb="16">0.3;63.6972</row>
+                <row nb="17">0.32;63.447</row>
+                <row nb="18">0.34;63.2114</row>
+                <row nb="19">0.36;62.9931</row>
+                <row nb="20">0.38;62.7187</row>
+                <row nb="21">0.4;62.4657</row>
+                <row nb="22">0.42;62.2361</row>
+                <row nb="23">0.44;62.0303</row>
+                <row nb="24">0.46;61.7773</row>
+                <row nb="25">0.48;61.5352</row>
+                <row nb="26">0.5;61.3175</row>
+                <row nb="27">0.6;60.2904</row>
+                <row nb="28">0.7;59.3738</row>
+                <row nb="29">0.8;58.5639</row>
+                <row nb="30">0.9;57.8709</row>
+                <row nb="31">1;57.1976</row>
+                <row nb="32">1.1;56.5874</row>
+                <row nb="33">1.2;56.0794</row>
+                <row nb="34">1.3;55.5366</row>
+                <row nb="35">1.4;55.1064</row>
+                <row nb="36">1.5;54.6461</row>
+                <row nb="37">1.6;54.2455</row>
+                <row nb="38">1.7;53.9005</row>
+                <row nb="39">1.8;53.4977</row>
+                <row nb="40">1.9;53.1834</row>
+                <row nb="41">2;52.888</row>
+                <row nb="42">2.1;52.5425</row>
+                <row nb="43">2.2;52.264</row>
+                <row nb="44">2.3;52.0381</row>
+                <row nb="45">2.4;51.7394</row>
+                <row nb="46">2.5;51.468</row>
+                <row nb="47">2.6;51.2424</row>
+                <row nb="48">2.7;51.0538</row>
+                <row nb="49">2.8;50.8112</row>
+                <row nb="50">2.9;50.569</row>
+                <row nb="51">3;50.3626</row>
+                <row nb="52">3.1;50.1861</row>
+                <row nb="53">3.2;50.0346</row>
+                <row nb="54">3.3;49.8242</row>
+                <row nb="55">3.4;49.6166</row>
+                <row nb="56">3.5;49.4358</row>
+                <row nb="57">3.6;49.2779</row>
+                <row nb="58">3.7;49.1394</row>
+                <row nb="59">3.8;49.0178</row>
+                <row nb="60">3.9;48.8338</row>
+                <row nb="61">4;48.6572</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">1100.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=1100.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>12</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;24.5359</row>
+                <row nb="2">0.02;44.9348</row>
+                <row nb="3">0.04;45.6689</row>
+                <row nb="4">0.06;45.666</row>
+                <row nb="5">0.08;45.6583</row>
+                <row nb="6">0.1;45.6423</row>
+                <row nb="7">0.12;45.614</row>
+                <row nb="8">0.14;45.5695</row>
+                <row nb="9">0.16;45.5055</row>
+                <row nb="10">0.18;45.4222</row>
+                <row nb="11">0.2;45.3201</row>
+                <row nb="12">0.22;45.2039</row>
+                <row nb="13">0.24;45.0796</row>
+                <row nb="14">0.26;44.9351</row>
+                <row nb="15">0.28;44.7551</row>
+                <row nb="16">0.3;44.5749</row>
+                <row nb="17">0.32;44.4007</row>
+                <row nb="18">0.34;44.2373</row>
+                <row nb="19">0.36;44.0877</row>
+                <row nb="20">0.38;43.9246</row>
+                <row nb="21">0.4;43.7252</row>
+                <row nb="22">0.42;43.5418</row>
+                <row nb="23">0.44;43.3753</row>
+                <row nb="24">0.46;43.2261</row>
+                <row nb="25">0.48;43.093</row>
+                <row nb="26">0.5;42.9571</row>
+                <row nb="27">0.6;42.1948</row>
+                <row nb="28">0.7;41.5359</row>
+                <row nb="29">0.8;41.0327</row>
+                <row nb="30">0.9;40.4542</row>
+                <row nb="31">1;40.0571</row>
+                <row nb="32">1.1;39.5824</row>
+                <row nb="33">1.2;39.2133</row>
+                <row nb="34">1.3;38.9058</row>
+                <row nb="35">1.4;38.5157</row>
+                <row nb="36">1.5;38.2282</row>
+                <row nb="37">1.6;38.0144</row>
+                <row nb="38">1.7;37.6812</row>
+                <row nb="39">1.8;37.4104</row>
+                <row nb="40">1.9;37.1992</row>
+                <row nb="41">2;37.0332</row>
+                <row nb="42">2.1;36.7798</row>
+                <row nb="43">2.2;36.5419</row>
+                <row nb="44">2.3;36.3483</row>
+                <row nb="45">2.4;36.1899</row>
+                <row nb="46">2.5;36.0595</row>
+                <row nb="47">2.6;35.8884</row>
+                <row nb="48">2.7;35.6802</row>
+                <row nb="49">2.8;35.5044</row>
+                <row nb="50">2.9;35.3556</row>
+                <row nb="51">3;35.229</row>
+                <row nb="52">3.1;35.1208</row>
+                <row nb="53">3.2;35.028</row>
+                <row nb="54">3.3;34.8768</row>
+                <row nb="55">3.4;34.7123</row>
+                <row nb="56">3.5;34.5688</row>
+                <row nb="57">3.6;34.4434</row>
+                <row nb="58">3.7;34.3334</row>
+                <row nb="59">3.8;34.2366</row>
+                <row nb="60">3.9;34.1513</row>
+                <row nb="61">4;34.0759</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">1200.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=1200.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>13</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;19.3541</row>
+                <row nb="2">0.02;32.3411</row>
+                <row nb="3">0.04;32.3406</row>
+                <row nb="4">0.06;32.3386</row>
+                <row nb="5">0.08;32.3332</row>
+                <row nb="6">0.1;32.3219</row>
+                <row nb="7">0.12;32.302</row>
+                <row nb="8">0.14;32.2711</row>
+                <row nb="9">0.16;32.2274</row>
+                <row nb="10">0.18;32.1718</row>
+                <row nb="11">0.2;32.1055</row>
+                <row nb="12">0.22;32.0323</row>
+                <row nb="13">0.24;31.9324</row>
+                <row nb="14">0.26;31.8066</row>
+                <row nb="15">0.28;31.6754</row>
+                <row nb="16">0.3;31.544</row>
+                <row nb="17">0.32;31.417</row>
+                <row nb="18">0.34;31.2978</row>
+                <row nb="19">0.36;31.1888</row>
+                <row nb="20">0.38;31.0909</row>
+                <row nb="21">0.4;31.0044</row>
+                <row nb="22">0.42;30.8516</row>
+                <row nb="23">0.44;30.7058</row>
+                <row nb="24">0.46;30.5725</row>
+                <row nb="25">0.48;30.4515</row>
+                <row nb="26">0.5;30.3429</row>
+                <row nb="27">0.6;29.8988</row>
+                <row nb="28">0.7;29.3687</row>
+                <row nb="29">0.8;29.0479</row>
+                <row nb="30">0.9;28.6161</row>
+                <row nb="31">1;28.2814</row>
+                <row nb="32">1.1;28.0595</row>
+                <row nb="33">1.2;27.7486</row>
+                <row nb="34">1.3;27.4516</row>
+                <row nb="35">1.4;27.2371</row>
+                <row nb="36">1.5;27.0806</row>
+                <row nb="37">1.6;26.8967</row>
+                <row nb="38">1.7;26.6364</row>
+                <row nb="39">1.8;26.4346</row>
+                <row nb="40">1.9;26.277</row>
+                <row nb="41">2;26.1531</row>
+                <row nb="42">2.1;26.0548</row>
+                <row nb="43">2.2;25.9254</row>
+                <row nb="44">2.3;25.7245</row>
+                <row nb="45">2.4;25.5591</row>
+                <row nb="46">2.5;25.4223</row>
+                <row nb="47">2.6;25.3085</row>
+                <row nb="48">2.7;25.2134</row>
+                <row nb="49">2.8;25.1335</row>
+                <row nb="50">2.9;25.0662</row>
+                <row nb="51">3;25.009</row>
+                <row nb="52">3.1;24.8675</row>
+                <row nb="53">3.2;24.7273</row>
+                <row nb="54">3.3;24.6059</row>
+                <row nb="55">3.4;24.5005</row>
+                <row nb="56">3.5;24.4087</row>
+                <row nb="57">3.6;24.3284</row>
+                <row nb="58">3.7;24.2581</row>
+                <row nb="59">3.8;24.1963</row>
+                <row nb="60">3.9;24.1419</row>
+                <row nb="61">4;24.0937</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">1300.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=1300.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>14</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;15.9901</row>
+                <row nb="2">0.02;22.9467</row>
+                <row nb="3">0.04;22.9464</row>
+                <row nb="4">0.06;22.945</row>
+                <row nb="5">0.08;22.9414</row>
+                <row nb="6">0.1;22.9339</row>
+                <row nb="7">0.12;22.9206</row>
+                <row nb="8">0.14;22.8997</row>
+                <row nb="9">0.16;22.8687</row>
+                <row nb="10">0.18;22.8284</row>
+                <row nb="11">0.2;22.7777</row>
+                <row nb="12">0.22;22.7176</row>
+                <row nb="13">0.24;22.6491</row>
+                <row nb="14">0.26;22.5746</row>
+                <row nb="15">0.28;22.4956</row>
+                <row nb="16">0.3;22.4125</row>
+                <row nb="17">0.32;22.3272</row>
+                <row nb="18">0.34;22.2411</row>
+                <row nb="19">0.36;22.1549</row>
+                <row nb="20">0.38;22.0692</row>
+                <row nb="21">0.4;21.9847</row>
+                <row nb="22">0.42;21.9015</row>
+                <row nb="23">0.44;21.8184</row>
+                <row nb="24">0.46;21.7373</row>
+                <row nb="25">0.48;21.658</row>
+                <row nb="26">0.5;21.5811</row>
+                <row nb="27">0.6;21.2203</row>
+                <row nb="28">0.7;20.9015</row>
+                <row nb="29">0.8;20.6163</row>
+                <row nb="30">0.9;20.3608</row>
+                <row nb="31">1;20.1308</row>
+                <row nb="32">1.1;19.9219</row>
+                <row nb="33">1.2;19.73</row>
+                <row nb="34">1.3;19.5534</row>
+                <row nb="35">1.4;19.3913</row>
+                <row nb="36">1.5;19.2382</row>
+                <row nb="37">1.6;19.0979</row>
+                <row nb="38">1.7;18.9633</row>
+                <row nb="39">1.8;18.838</row>
+                <row nb="40">1.9;18.7205</row>
+                <row nb="41">2;18.6093</row>
+                <row nb="42">2.1;18.5037</row>
+                <row nb="43">2.2;18.4029</row>
+                <row nb="44">2.3;18.3065</row>
+                <row nb="45">2.4;18.2142</row>
+                <row nb="46">2.5;18.1259</row>
+                <row nb="47">2.6;18.0414</row>
+                <row nb="48">2.7;17.9607</row>
+                <row nb="49">2.8;17.8841</row>
+                <row nb="50">2.9;17.8097</row>
+                <row nb="51">3;17.7366</row>
+                <row nb="52">3.1;17.6674</row>
+                <row nb="53">3.2;17.602</row>
+                <row nb="54">3.3;17.5355</row>
+                <row nb="55">3.4;17.4731</row>
+                <row nb="56">3.5;17.413</row>
+                <row nb="57">3.6;17.353</row>
+                <row nb="58">3.7;17.2979</row>
+                <row nb="59">3.8;17.2405</row>
+                <row nb="60">3.9;17.1879</row>
+                <row nb="61">4;17.1343</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">1400.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=1400.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>15</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;13.6881</row>
+                <row nb="2">0.02;16.1173</row>
+                <row nb="3">0.04;16.1171</row>
+                <row nb="4">0.06;16.1161</row>
+                <row nb="5">0.08;16.1136</row>
+                <row nb="6">0.1;16.1084</row>
+                <row nb="7">0.12;16.0991</row>
+                <row nb="8">0.14;16.084</row>
+                <row nb="9">0.16;16.0622</row>
+                <row nb="10">0.18;16.0339</row>
+                <row nb="11">0.2;15.9989</row>
+                <row nb="12">0.22;15.9558</row>
+                <row nb="13">0.24;15.9085</row>
+                <row nb="14">0.26;15.8552</row>
+                <row nb="15">0.28;15.8006</row>
+                <row nb="16">0.3;15.7411</row>
+                <row nb="17">0.32;15.682</row>
+                <row nb="18">0.34;15.6214</row>
+                <row nb="19">0.36;15.5604</row>
+                <row nb="20">0.38;15.5016</row>
+                <row nb="21">0.4;15.4404</row>
+                <row nb="22">0.42;15.3822</row>
+                <row nb="23">0.44;15.324</row>
+                <row nb="24">0.46;15.2671</row>
+                <row nb="25">0.48;15.2122</row>
+                <row nb="26">0.5;15.1568</row>
+                <row nb="27">0.6;14.905</row>
+                <row nb="28">0.7;14.6795</row>
+                <row nb="29">0.8;14.4797</row>
+                <row nb="30">0.9;14.302</row>
+                <row nb="31">1;14.1382</row>
+                <row nb="32">1.1;13.993</row>
+                <row nb="33">1.2;13.8566</row>
+                <row nb="34">1.3;13.7328</row>
+                <row nb="35">1.4;13.6188</row>
+                <row nb="36">1.5;13.5126</row>
+                <row nb="37">1.6;13.4129</row>
+                <row nb="38">1.7;13.3189</row>
+                <row nb="39">1.8;13.2304</row>
+                <row nb="40">1.9;13.147</row>
+                <row nb="41">2;13.069</row>
+                <row nb="42">2.1;12.9965</row>
+                <row nb="43">2.2;12.9238</row>
+                <row nb="44">2.3;12.8557</row>
+                <row nb="45">2.4;12.7934</row>
+                <row nb="46">2.5;12.7299</row>
+                <row nb="47">2.6;12.671</row>
+                <row nb="48">2.7;12.6151</row>
+                <row nb="49">2.8;12.5594</row>
+                <row nb="50">2.9;12.5088</row>
+                <row nb="51">3;12.4563</row>
+                <row nb="52">3.1;12.4094</row>
+                <row nb="53">3.2;12.3606</row>
+                <row nb="54">3.3;12.3162</row>
+                <row nb="55">3.4;12.2715</row>
+                <row nb="56">3.5;12.2287</row>
+                <row nb="57">3.6;12.1888</row>
+                <row nb="58">3.7;12.1468</row>
+                <row nb="59">3.8;12.1098</row>
+                <row nb="60">3.9;12.0706</row>
+                <row nb="61">4;12.0334</row>
+            </sfDataTable>
+        </flow_curve_table>
+        <flow_curve_table>
+            <fc_temperature dimension="8" unit="1" unit_symbol="°C">1500.0</fc_temperature>
+            <fc_strainrate dimension="24" unit="0" unit_symbol="1/s">0.01</fc_strainrate>
+            <fc_peak_temperature dimension="8" unit="1" unit_symbol="°C">20.0</fc_peak_temperature>
+            <sfDataTable name="T=1500.0 °C,phi_p=0.01 1/s,T_p=20.0 °C" type="0" columns="2" rows="61" version="12.1">
+                <idTag>16</idTag>
+                <comment></comment>
+                <type>0</type>
+                <columns>2</columns>
+                <rows>61</rows>
+                <columndata title="" name="" type="0" datatype="1" fffunit="-1" unit_symbol="-" usage="1"/>
+                <columndata title="" name="" type="0" datatype="1" fffunit="851971" unit_symbol="MPa" usage="2"/>
+                <row nb="1">0;10</row>
+                <row nb="2">0.02;10</row>
+                <row nb="3">0.04;10</row>
+                <row nb="4">0.06;10</row>
+                <row nb="5">0.08;10</row>
+                <row nb="6">0.1;10</row>
+                <row nb="7">0.12;10</row>
+                <row nb="8">0.14;10</row>
+                <row nb="9">0.16;10</row>
+                <row nb="10">0.18;10</row>
+                <row nb="11">0.2;10</row>
+                <row nb="12">0.22;10</row>
+                <row nb="13">0.24;10</row>
+                <row nb="14">0.26;10</row>
+                <row nb="15">0.28;10</row>
+                <row nb="16">0.3;10</row>
+                <row nb="17">0.32;10</row>
+                <row nb="18">0.34;10</row>
+                <row nb="19">0.36;10</row>
+                <row nb="20">0.38;10</row>
+                <row nb="21">0.4;10</row>
+                <row nb="22">0.42;10</row>
+                <row nb="23">0.44;10</row>
+                <row nb="24">0.46;10</row>
+                <row nb="25">0.48;10</row>
+                <row nb="26">0.5;10</row>
+                <row nb="27">0.6;10</row>
+                <row nb="28">0.7;10</row>
+                <row nb="29">0.8;10</row>
+                <row nb="30">0.9;10</row>
+                <row nb="31">1;10</row>
+                <row nb="32">1.1;10</row>
+                <row nb="33">1.2;10</row>
+                <row nb="34">1.3;10</row>
+                <row nb="35">1.4;10</row>
+                <row nb="36">1.5;10</row>
+                <row nb="37">1.6;10</row>
+                <row nb="38">1.7;10</row>
+                <row nb="39">1.8;10</row>
+                <row nb="40">1.9;10</row>
+                <row nb="41">2;10</row>
+                <row nb="42">2.1;10</row>
+                <row nb="43">2.2;10</row>
+                <row nb="44">2.3;10</row>
+                <row nb="45">2.4;10</row>
+                <row nb="46">2.5;10</row>
+                <row nb="47">2.6;10</row>
+                <row nb="48">2.7;10</row>
+                <row nb="49">2.8;10</row>
+                <row nb="50">2.9;10</row>
+                <row nb="51">3;10</row>
+                <row nb="52">3.1;10</row>
+                <row nb="53">3.2;10</row>
+                <row nb="54">3.3;10</row>
+                <row nb="55">3.4;10</row>
+                <row nb="56">3.5;10</row>
+                <row nb="57">3.6;10</row>
+                <row nb="58">3.7;10</row>
+                <row nb="59">3.8;10</row>
+                <row nb="60">3.9;10</row>
+                <row nb="61">4;10</row>
+            </sfDataTable>
+        </flow_curve_table>
+    </flow_curves_table_approach>
+    <phase_transformation/>
+    <chemical_composition>
+        <element name="Al" min="0" max="0" fix="0.03"/>
+        <element name="C" min="0" max="0" fix="0.034"/>
+        <element name="Cr" min="0" max="0" fix="0.03"/>
+        <element name="Cu" min="0" max="0" fix="0.01"/>
+        <element name="Fe" min="0" max="0" fix="99.616"/>
+        <element name="Mn" min="0" max="0" fix="0.24"/>
+        <element name="Ni" min="0" max="0" fix="0.02"/>
+        <element name="P" min="0" max="0" fix="0.008999999999999999"/>
+        <element name="S" min="0" max="0" fix="0.011"/>
+    </chemical_composition>
+    <misc>
+        <misc_modified>true</misc_modified>
+    </misc>
+</sfMaterialData>
